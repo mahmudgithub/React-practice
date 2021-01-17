@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './App.css';
+import { First } from './Components/First';
 
 
 const App=()=>{
@@ -18,6 +19,7 @@ const App=()=>{
 <h1>{num1}</h1>
 <h1>{num2}</h1>
 <h1>result : {result}</h1>
+<First/>
 
 </div> 
   )
