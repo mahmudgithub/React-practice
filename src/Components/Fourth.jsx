@@ -8,3 +8,4 @@ export const Fourth = () => {
         </div>
     )
 }
+export default Fourth;
