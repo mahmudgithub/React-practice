@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
 
 const Useeffect = () => {
-    useEffect(()=>{
-        console.log('i am use effect')
-    })
+useEffect(()=>{
+    console.log('hello')
+},[])
     return (
         <div>
             
