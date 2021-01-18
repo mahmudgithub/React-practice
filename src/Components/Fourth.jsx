@@ -1,14 +1,15 @@
-import React,{useState} from 'react'
+import React from 'react'
 import { Five } from './Five'
 
 
-export const Fourth = () => {
-    const [number, setNumber] = useState(0)
+export const Fourth = (props) => {
+
     return (
         <div>
+          <p>name:{props.name}</p>  
+          <p>city:{props.city}</p>  
+          <p>roll:{props.roll}</p>  
             <Five/>
-            <input onChange={(e)=>setNumber(e.target.value)} type="number"/>
-            {number}
         </div>
     )
 }

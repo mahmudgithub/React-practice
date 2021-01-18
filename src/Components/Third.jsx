@@ -5,9 +5,9 @@ export const Third = () => {
     const [x, setX] = useState(1)
     return (
         <div>
-            <input onChange={(e)=> setX (e.target.value)}type='number'/>
+            {/* <input onChange={(e)=> setX (e.target.value)}type='number'/>
             <h1>{x}</h1>
-            <Fourth/>
+            <Fourth/> */}
         </div>
     )
 }

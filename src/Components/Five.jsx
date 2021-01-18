@@ -6,10 +6,10 @@ export const Five = () => {
     
     return (
         <>
-        <h1>example of simple variable decliaration</h1>
+        {/* <h1>example of simple variable decliaration</h1>
         {x}
         <h2>Example of variable decliaration by useState</h2>
-        {name}
+        {name} */}
         
         </>
     )

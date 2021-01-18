@@ -1,25 +1,20 @@
-// import React, { useState } from 'react'
+import React from 'react'
 import './App.css';
 import { First } from './Components/First';
+import Fourth from './Components/Fourth';
+import Useeffect from './Components/Useeffect';
 
 
 const App=()=>{
-  // const [num1, setNum1] = useState(0)
-  // const [num2, setNum2] = useState(0)
-  // const [result, setResult] = useState(0)
-  // const addNumber=()=>{
-  //   const resultdata= parseInt(num1) + parseInt(num2)
-  //   setResult(resultdata)
-  
+
   return (
 <div>
 
-{/* <input onChange={(e)=>setNum1(e.target.value)}type="number"/>
-<input onChange={(e)=>setNum2(e.target.value)}type="number"/>
-<button onClick={addNumber}>Add</button>
-<h1>{num1}</h1>
-<h1>{num2}</h1>
-<h1>result : {result}</h1> */}
+
+<Fourth name='hossain' city='dhaka' roll= '6789'/>
+<Fourth name='nowsin' city='pabna' roll=  '12345'/>
+<Fourth name='lamyaa' city='dpabna' roll='01234'/>
+<Useeffect/>
 
 
 <First/>

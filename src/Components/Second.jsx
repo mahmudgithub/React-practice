@@ -1,12 +1,26 @@
-import React,{useState} from 'react'  //import useState library
+import React, {useState} from 'react'  //import useState library
 import { Third } from './Third'
 
-export const Second = () => {
-    const [num, setnum] = useState(0)  //num is variable name, useState(0) is initial value of num variable  and setNum use to change variable value
+ export const Second = () => {
+    //  const [num1, setNum1] = useState()
+    //  const [num2, setNum2] = useState()
+    //  const [resultt, setResult] = useState()
+    //  const add=()=>{
+    //      const sum= parseInt(num1) + parseInt(num2)
+    //      setResult(sum)
+    //  }
+    
+
     return (
         <div>
-            <input onChange={(e)=>setnum(e.target.value)}type='number'/> e is event and total ta anonomus function
-            {num}  //{num} is output 
+{/* <input onChange={(e)=>setNum1(e.target.value)} type='number'/>
+{num1}
+<input onChange={(e)=>setNum2(e.target.value)} type='number'/>
+{num2}
+<button onClick= {add}> add</button>
+<h1>result: {resultt}</h1> */}
+            
+            
             <Third/>
         </div>
     )
