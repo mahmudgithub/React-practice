@@ -10,26 +10,29 @@ import Usestate3 from './Components/Usestate3';
 import {BrowserRouter, Link, Route, Switch } from 'react-router-dom';
 import Router1 from './Components/Router1';
 import Router2 from './Components/Router2';
+import Httpcompl1 from './Components/Httpcompl1';
 
 
 const App=()=>{
 
   return (
-<div>
-<BrowserRouter>
 
+<div>
+
+<Httpcompl1/>
+
+
+
+{/* <BrowserRouter>
 <ul>
   <li>
     <Link to='/router1'> router1 </Link>
   </li>
   <li>
     <Link to='/Router2'> router2 </Link>
-  </li>
-  
+  </li> 
 </ul>
-
 <Switch>
-
   <Route path='/Router1'>
     <Router1/>
   </Route>
@@ -37,13 +40,12 @@ const App=()=>{
   <Route path='/Router2'>
     <Router2/>
   </Route>
-
 </Switch>
 </BrowserRouter>
 
 
 
-{/* <Propss name='mahmud' roll='12345' city='rajshhi'/>
+<Propss name='mahmud' roll='12345' city='rajshhi'/>
 <Propss name='mhossain' roll='12345' city='dhaka'/>
 <Reactfragment/>
 <Usestate1/>
