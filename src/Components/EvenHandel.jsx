@@ -110,11 +110,28 @@
 
 // export default EvenHandel
 
+// import React, { Component } from 'react'
+
+// export class EvenHandel extends Component {
+//     lol=()=>{
+//         console.log('hello')
+//     }
+//     render() {
+//         return (
+//             <div>
+//                 <button onClick={()=>this.lol()}>click</button>
+//             </div>
+//         )
+//     }
+// }
+
+// export default EvenHandel
+
 import React, { Component } from 'react'
 
 export class EvenHandel extends Component {
     lol=()=>{
-        console.log('hello')
+        console.log('do it ')
     }
     render() {
         return (
