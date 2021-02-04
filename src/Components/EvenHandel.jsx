@@ -179,19 +179,19 @@
 // export default EvenHandel
 
 
-import React, { Component } from 'react'
+// import React, { Component } from 'react'
 
-export class EvenHandel extends Component {
-    lol=()=>{
-        alert('hello world')
-    }
-    render() {
-        return (
-            <div>
-                <button onClick={()=>this.lol()}>click</button>
-            </div>
-        )
-    }
-}
+// export class EvenHandel extends Component {
+//     lol=()=>{
+//         alert('hello world')
+//     }
+//     render() {
+//         return (
+//             <div>
+//                 <button onClick={()=>this.lol()}>click</button>
+//             </div>
+//         )
+//     }
+// }
 
-export default EvenHandel
+// export default EvenHandel

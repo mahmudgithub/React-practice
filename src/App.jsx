@@ -15,6 +15,7 @@ import Class from './Components/Class';
 import State from './Components/State';
 import Setstate from './Components/Setstate';
 import EvenHandel from './Components/EvenHandel';
+import BindEvent from './Components/BindEvent';
 
 
 
@@ -63,8 +64,8 @@ const App=()=>{
 {/* <Propss  name='mahmud'> i am children props</Propss> */}
 {/* <State/> */}
 {/* <Setstate/>  */}
-<EvenHandel/>
-
+{/* <EvenHandel/> */}
+<BindEvent/>
 
 </div> 
   )
