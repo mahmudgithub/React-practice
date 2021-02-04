@@ -15,6 +15,23 @@
 
 
 
+// import React, { Component } from 'react'
+
+// export class BindEvent extends Component {
+//     lol=(a)=>{
+//         alert(a)
+//     }
+//     render() {
+//         return (
+//             <div>
+//                 <button onClick={this.lol.bind(this,'mahmud')}>click</button>
+//             </div>
+//         )
+//     }
+// }
+
+// export default BindEvent
+
 import React, { Component } from 'react'
 
 export class BindEvent extends Component {
@@ -24,10 +41,11 @@ export class BindEvent extends Component {
     render() {
         return (
             <div>
-                <button onClick={this.lol.bind(this,'mahmud')}>click</button>
+                <button onClick={this.lol.bind(this,'nowsin')}>click</button>
             </div>
         )
     }
 }
 
 export default BindEvent
+
