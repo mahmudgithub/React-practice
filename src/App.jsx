@@ -60,7 +60,7 @@ const App=()=>{
 <Axioss/>
 <Useeffect/> */}
 {/* <Class/> */}
-<Propss />
+<Propss  name='mahmud' city='rajshahi'/>
 {/* <State/> */}
 {/* <Setstate/>  */}
 {/* <EvenHandel/> */}

@@ -122,10 +122,10 @@
 
 import React from 'react'
 
-const Propss = () => {
+const Propss = (props) => {
     return (
         <div>
-            hello 
+            hello {props.name} and {props.city}
         </div>
     )
 }
