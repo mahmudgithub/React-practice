@@ -120,4 +120,14 @@
 
 // export default Propss
 
+import React from 'react'
 
+const Propss = () => {
+    return (
+        <div>
+            hello 
+        </div>
+    )
+}
+
+export default Propss
