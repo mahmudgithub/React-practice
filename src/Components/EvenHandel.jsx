@@ -44,15 +44,48 @@
 
 // export default EvenHandel
 
+// import React from 'react'
+
+// const EvenHandel = () => {
+//     const lol=()=>{
+//         console.log('hello')
+//     }
+//     return (
+//         <div>
+//             <button onClick={()=>lol()}>click</button>
+//         </div>
+//     )
+// }
+
+// export default EvenHandel
+
+// import React from 'react'
+
+// const EvenHandel = () => {
+//     const lol=()=>{
+//         console.log('hello')
+
+//     }
+//     return (
+//         <div>
+//             <button onClick={()=>lol()}>click</button>    
+//         </div>
+//     )
+// }
+
+// export default EvenHandel
+
+
 import React from 'react'
 
 const EvenHandel = () => {
     const lol=()=>{
         console.log('hello')
+
     }
     return (
         <div>
-            <button onClick={()=>lol()}>click</button>
+            <button onClick={lol}>click</button>
         </div>
     )
 }
