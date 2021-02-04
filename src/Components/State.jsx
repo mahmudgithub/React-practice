@@ -106,27 +106,50 @@
 
 // export default State
 
+// import React, { Component } from 'react'
+
+// export class State extends Component {
+//     constructor(props) {
+//         super(props)
+    
+//         this.state = {
+//              name:'mahmud',
+//              city:['dhaka','rajshahi','chitgong']
+
+//         }
+//     }
+    
+//     render() {
+//         return (
+//             <div>
+//                 hello {this.state.name} and your city are {this.state.city[1]}
+//             </div>
+//         )
+//     }
+// }
+
+// export default State
+
 import React, { Component } from 'react'
 
 export class State extends Component {
     constructor(props) {
         super(props)
-    
-        this.state = {
-             name:'mahmud',
-             city:['dhaka','rajshahi','chitgong']
-
+        const lol={
+            name:"mahmud",
+            city:['raj','dha']
         }
+    
+        this.state = lol
     }
     
     render() {
         return (
             <div>
-                hello {this.state.name} and your city are {this.state.city[1]}
+                hello {this.state.name} and {this.state.city[0]}
             </div>
         )
     }
 }
 
 export default State
-
