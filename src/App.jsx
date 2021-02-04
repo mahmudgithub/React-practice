@@ -11,15 +11,22 @@ import {BrowserRouter, Link, Route, Switch } from 'react-router-dom';
 import Router1 from './Components/Router1';
 import Router2 from './Components/Router2';
 import Httpcompl1 from './Components/Httpcompl1';
+import Class from './Components/Class';
+import State from './Components/State';
+import Setstate from './Components/Setstate';
+import EvenHandel from './Components/EvenHandel';
+
+
 
 
 const App=()=>{
+  
 
   return (
 
 <div>
 
-<Httpcompl1/>
+{/* <Httpcompl1/> */}
 
 
 
@@ -45,14 +52,18 @@ const App=()=>{
 
 
 
-<Propss name='mahmud' roll='12345' city='rajshhi'/>
-<Propss name='mhossain' roll='12345' city='dhaka'/>
+
 <Reactfragment/>
 <Usestate1/>
 <Usestate2/>
 <Usestate3/>
 <Axioss/>
 <Useeffect/> */}
+{/* <Class/> */}
+{/* <Propss name='mahmud' roll='12345'>i am childern props</Propss> */}
+{/* <State/> */}
+{/* <Setstate/>  */}
+<EvenHandel/>
 
 
 </div> 
