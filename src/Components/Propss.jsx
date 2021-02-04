@@ -133,14 +133,29 @@
 // export default Propss
 
 
-import React, { Component } from 'react'
+// import React, { Component } from 'react'
 
-export default class Propss extends Component {
-    render() {
-        return (
-            <div>
-                hello {this.props.name} and {this.props.city}
-            </div>
-        )
-    }
+// export default class Propss extends Component {
+//     render() {
+//         return (
+//             <div>
+//                 hello {this.props.name} and {this.props.city}
+//             </div>
+//         )
+//     }
+// }
+
+
+import React from 'react'
+
+const Propss = (props) => {
+    return (
+        <div>
+            hello {props.name}
+            <br/> 
+            hi{props.children}
+        </div>
+    )
 }
+
+export default Propss
