@@ -76,18 +76,36 @@
 // export default EvenHandel
 
 
-import React from 'react'
+// import React from 'react'
 
-const EvenHandel = () => {
-    const lol=()=>{
+// const EvenHandel = () => {
+//     const lol=()=>{
+//         console.log('hello')
+
+//     }
+//     return (
+//         <div>
+//             <button onClick={lol}>click</button>
+//         </div>
+//     )
+// }
+
+// export default EvenHandel
+
+
+import React, { Component } from 'react'
+
+export class EvenHandel extends Component {
+    lol=()=>{
         console.log('hello')
-
     }
-    return (
-        <div>
-            <button onClick={lol}>click</button>
-        </div>
-    )
+    render() {
+        return (
+            <div>
+                <button onClick={this.lol}>click</button>
+            </div>
+        )
+    }
 }
 
 export default EvenHandel
