@@ -130,26 +130,29 @@
 
 // export default State
 
-import React, { Component } from 'react'
+// import React, { Component } from 'react'
 
-export class State extends Component {
-    constructor(props) {
-        super(props)
-        const lol={
-            name:"mahmud",
-            city:['raj','dha']
-        }
+// export class State extends Component {
+//     constructor(props) {
+//         super(props)
+//         const lol={
+//             name:"mahmud",
+//             city:['raj','dha']
+//         }
     
-        this.state = lol
-    }
+//         this.state = lol
+//     }
     
-    render() {
-        return (
-            <div>
-                hello {this.state.name} and {this.state.city[0]}
-            </div>
-        )
-    }
-}
+//     render() {
+//         return (
+//             <div>
+//                 hello {this.state.name} and {this.state.city[0]}
+//             </div>
+//         )
+//     }
+// }
 
-export default State
+// export default State
+
+
+

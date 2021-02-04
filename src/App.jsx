@@ -61,9 +61,9 @@ const App=()=>{
 <Useeffect/> */}
 {/* <Class/> */}
 {/* <Propss  name='mahmud'> i am children props</Propss> */}
-<State/>
+{/* <State/> */}
 {/* <Setstate/>  */}
-{/* <EvenHandel/> */}
+<EvenHandel/>
 
 
 </div> 
