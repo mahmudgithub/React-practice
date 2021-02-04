@@ -60,8 +60,8 @@ const App=()=>{
 <Axioss/>
 <Useeffect/> */}
 {/* <Class/> */}
-<Propss  name='mahmud'> i am children props</Propss>
-{/* <State/> */}
+{/* <Propss  name='mahmud'> i am children props</Propss> */}
+<State/>
 {/* <Setstate/>  */}
 {/* <EvenHandel/> */}
 

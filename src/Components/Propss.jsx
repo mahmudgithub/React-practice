@@ -160,18 +160,20 @@
 
 // export default Propss
 
-import React, { Component } from 'react'
+// import React, { Component } from 'react'
 
-export class Propss extends Component {
-    render() {
-        return (
-            <div>
-                hello {this.props.name}
-                <br/>
-                {this.props.children}
-            </div>
-        )
-    }
-}
+// export class Propss extends Component {
+//     render() {
+//         return (
+//             <div>
+//                 hello {this.props.name}
+//                 <br/>
+//                 {this.props.children}
+//             </div>
+//         )
+//     }
+// }
 
-export default Propss
+// export default Propss
+
+
