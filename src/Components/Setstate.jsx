@@ -97,6 +97,34 @@
 // export default Setstate
 
 
+// import React, { Component } from 'react'
+
+// export class Setstate extends Component {
+//     constructor(props) {
+//         super(props)
+    
+//         this.state = {
+//             count:0
+//         }
+//     }
+//     lol=()=>{
+//         this.setState({
+//             count:this.state.count + 1
+//         })
+//     }
+    
+//     render() {
+//         return (
+//             <div>
+//                count:  {this.state.count}
+//                <button onClick={()=>this.lol()}>click</button>
+//             </div>
+//         )
+//     }
+// }
+
+// export default Setstate
+
 import React, { Component } from 'react'
 
 export class Setstate extends Component {
@@ -104,20 +132,21 @@ export class Setstate extends Component {
         super(props)
     
         this.state = {
-            count:0
+             name:['mahmud','hosain']
         }
     }
+
     lol=()=>{
         this.setState({
-            count:this.state.count + 1
+            name:this.state.name=['lamyaa','nowsin']
         })
     }
     
     render() {
         return (
             <div>
-               count:  {this.state.count}
-               <button onClick={()=>this.lol()}>click</button>
+                {this.state.name}
+                <button onClick={()=>this.lol()}>change</button>
             </div>
         )
     }
