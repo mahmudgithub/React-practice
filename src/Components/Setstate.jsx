@@ -196,6 +196,39 @@
 // export default Setstate
 
 
+// import React, { Component } from 'react'
+
+// export class Setstate extends Component {
+//     constructor(props) {
+//         super(props)
+    
+//         this.state = {
+//              count:0
+             
+//         }
+        
+//     }
+//     lol=()=>{
+//         this.setState({
+//             count:this.state.count+1
+//         })
+//     }
+    
+    
+//     render() {
+//         return (
+//             <div>
+//               <span style={{border:'solid',borderColor:'red',background:'skyblue',margin:'15px'}}> count:  {this.state.count}</span>
+//                <br/>
+//                <button className='btn btn-primary mt-3' onClick={this.lol}>Click me add</button>
+//             </div>
+//         )
+//     }
+// }
+
+// export default Setstate
+
+
 import React, { Component } from 'react'
 
 export class Setstate extends Component {
@@ -204,23 +237,21 @@ export class Setstate extends Component {
     
         this.state = {
              count:0
-             
         }
-        
     }
-    lol=()=>{
+    lol=(a)=>{
         this.setState({
-            count:this.state.count+1
+            count:a
+
         })
     }
-    
     
     render() {
         return (
             <div>
-              <span style={{border:'solid',borderColor:'red',background:'skyblue',margin:'15px'}}> count:  {this.state.count}</span>
-               <br/>
-               <button className='btn btn-primary mt-3' onClick={this.lol}>Click me add</button>
+                count: {this.state.count}
+                <br/>
+                <button onClick={this.lol.bind(this, this.state.count+1)}>click to add</button>
             </div>
         )
     }
