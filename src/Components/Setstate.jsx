@@ -125,6 +125,35 @@
 
 // export default Setstate
 
+// import React, { Component } from 'react'
+
+// export class Setstate extends Component {
+//     constructor(props) {
+//         super(props)
+    
+//         this.state = {
+//              name:['mahmud','hosain']
+//         }
+//     }
+
+//     lol=()=>{
+//         this.setState({
+//             name:this.state.name=['lamyaa','nowsin']
+//         })
+//     }
+    
+//     render() {
+//         return (
+//             <div>
+//                 {this.state.name}
+//                 <button onClick={()=>this.lol()}>change</button>
+//             </div>
+//         )
+//     }
+// }
+
+// export default Serce
+
 import React, { Component } from 'react'
 
 export class Setstate extends Component {
@@ -132,21 +161,20 @@ export class Setstate extends Component {
         super(props)
     
         this.state = {
-             name:['mahmud','hosain']
+             name:'mahmud'
         }
     }
-
-    lol=()=>{
+    lol=(a)=>{
         this.setState({
-            name:this.state.name=['lamyaa','nowsin']
+            name:this.state.name=a
         })
     }
     
     render() {
         return (
             <div>
-                {this.state.name}
-                <button onClick={()=>this.lol()}>change</button>
+                <h1>name: {this.state.name}</h1>
+                <button onClick={this.lol.bind(this,'hossain')}>chick</button>
             </div>
         )
     }
