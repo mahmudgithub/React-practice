@@ -183,4 +183,14 @@
 
 // export default Setstate
 
+import React from 'react'
 
+const Setstate = () => {
+    return (
+        <div>
+            <button className='btn btn-primary m-5 p-1    ' style={{ width: '18rem', borderColor:'black', borderWidth: '5px' }}>click me again</button>
+        </div>
+    )
+}
+
+export default Setstate
