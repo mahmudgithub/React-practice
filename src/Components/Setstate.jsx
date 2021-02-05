@@ -183,14 +183,47 @@
 
 // export default Setstate
 
-import React from 'react'
+// import React from 'react'
 
-const Setstate = () => {
-    return (
-        <div>
-            <button className='btn btn-primary m-5 p-1    ' style={{ width: '18rem', borderColor:'black', borderWidth: '5px' }}>click me again</button>
-        </div>
-    )
+// const Setstate = () => {
+//     return (
+//         <div>
+//             <button className='btn btn-primary m-5 p-1    ' style={{ width: '18rem', borderColor:'black', borderWidth: '5px' }}>click me again</button>
+//         </div>
+//     )
+// }
+
+// export default Setstate
+
+
+import React, { Component } from 'react'
+
+export class Setstate extends Component {
+    constructor(props) {
+        super(props)
+    
+        this.state = {
+             count:0
+             
+        }
+        
+    }
+    lol=()=>{
+        this.setState({
+            count:this.state.count+1
+        })
+    }
+    
+    
+    render() {
+        return (
+            <div>
+              <span style={{border:'solid',borderColor:'red',background:'skyblue',margin:'15px'}}> count:  {this.state.count}</span>
+               <br/>
+               <button className='btn btn-primary mt-3' onClick={this.lol}>Click me add</button>
+            </div>
+        )
+    }
 }
 
 export default Setstate
