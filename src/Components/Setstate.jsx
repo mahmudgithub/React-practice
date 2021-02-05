@@ -67,3 +67,31 @@
 // }
 
 // export default setState
+
+import React, { Component } from 'react'
+
+export class Setstate extends Component {
+    constructor(props) {
+        super(props)
+    
+        this.state = {
+             count:0
+        }
+    }
+    lol=()=>{
+        this.setState({
+            count:this.state.count+1
+        })
+    }
+    
+    render() {
+        return (
+            <div>
+                count: {this.state.count}
+                <button onClick={()=>this.lol()}>change value</button>
+            </div>
+        )
+    }
+}
+
+export default Setstate

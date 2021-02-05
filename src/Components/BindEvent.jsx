@@ -128,37 +128,31 @@
 
 // export default BindEvent
 
-import React, { Component } from 'react'
+// import React, { Component } from 'react'
 
-export class BindEvent extends Component {
-    constructor(props) {
-        super(props)
+// export class BindEvent extends Component {
+//     constructor(props) {
+//         super(props)
     
-        this.state = {
-             name:'mahmud'
-        }
-    }
-    lol=(a)=>{
-        this.setState({
-            name:a
-        })
-    }
+//         this.state = {
+//              name:'mahmud'
+//         }
+//     }
+//     lol=(a)=>{
+//         this.setState({
+//             name:a
+//         })
+//     }
     
-    render() {
-        return (
-            <div>
-                {this.state.name}
-                <button onClick={this.lol.bind(this,'hossain')}>change name</button>
-            </div>
-        )
-    }
-}
+//     render() {
+//         return (
+//             <div>
+//                 {this.state.name}
+//                 <button onClick={this.lol.bind(this,'hossain')}>change name</button>
+//             </div>
+//         )
+//     }
+// }
 
-export default BindEvent
-
-
-
-
-
-
+// export default BindEvent
 

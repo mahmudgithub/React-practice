@@ -63,9 +63,9 @@ const App=()=>{
 {/* <Class/> */}
 {/* <Propss  name='mahmud'> i am children props</Propss> */}
 {/* <State/> */}
-{/* <Setstate/>  */}
 {/* <EvenHandel/> */}
-<BindEvent name='MAHMUD'> child props</BindEvent>
+{/* <BindEvent/> */}
+<Setstate/> 
 
 </div> 
   )
