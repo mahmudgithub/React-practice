@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './App.css';
 import Axioss from './Components/Axioss';
 import Propss from './Components/Propss';
@@ -20,6 +20,8 @@ import BindEvent from './Components/BindEvent';
 
 
 
+
+
 const App=()=>{
   
 
@@ -27,7 +29,6 @@ const App=()=>{
 
 <div>
 
-{/* <Httpcompl1/> */}
 
 
 
@@ -52,20 +53,23 @@ const App=()=>{
 </BrowserRouter>
 
 
-
-
 <Reactfragment/>
-<Usestate1/>
+
 <Usestate2/>
 <Usestate3/>
 <Axioss/>
 <Useeffect/> */}
+{/* <Httpcompl1/> */}
 {/* <Class/> */}
 {/* <Propss  name='mahmud'> i am children props</Propss> */}
 {/* <State/> */}
 {/* <EvenHandel/> */}
 {/* <BindEvent/> */}
-<Setstate name="mahmud"> I am children props</Setstate> 
+{/* <Setstate/> */}
+<Usestate1/>
+
+
+
 
 </div> 
   )

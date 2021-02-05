@@ -229,32 +229,32 @@
 // export default Setstate
 
 
-import React, { Component } from 'react'
+// import React, { Component } from 'react'
 
-export class Setstate extends Component {
-    constructor(props) {
-        super(props)
+// export class Setstate extends Component {
+//     constructor(props) {
+//         super(props)
     
-        this.state = {
-             count:0
-        }
-    }
-    lol=(a)=>{
-        this.setState({
-            count:a
+//         this.state = {
+//              count:0
+//         }
+//     }
+//     lol=(a)=>{
+//         this.setState({
+//             count:a
 
-        })
-    }
+//         })
+//     }
     
-    render() {
-        return (
-            <div>
-                count: {this.state.count}
-                <br/>
-                <button onClick={this.lol.bind(this, this.state.count+1)}>click to add</button>
-            </div>
-        )
-    }
-}
+//     render() {
+//         return (
+//             <div>
+//                 count: {this.state.count}
+//                 <br/>
+//                 <button onClick={this.lol.bind(this, this.state.count+1)}>click to add</button>
+//             </div>
+//         )
+//     }
+// }
 
-export default Setstate
+// export default Setstate
