@@ -62,8 +62,8 @@ const App=()=>{
 {/* <Httpcompl1/> */}
 {/* <Class/> */}
 {/* <Propss  name='mahmud'> i am children props</Propss> */}
-<State/>
-{/* <EvenHandel/> */}
+{/* <State/> */}
+<EvenHandel/>
 {/* <BindEvent/> */}
 {/* <Setstate/> */}
 {/* <Usestate1/> */}

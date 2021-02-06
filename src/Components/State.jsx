@@ -155,28 +155,28 @@
 // export default State
 
 
-// use state in class components
-import React, { Component } from 'react'
+// // use state in class components
+// import React, { Component } from 'react'
 
-export class State extends Component {
-    constructor(props) {
-        super(props)
+// export class State extends Component {
+//     constructor(props) {
+//         super(props)
     
-        this.state = {
-             name:'mahmud',
-             obj:['rajshahi','dhaka','khulna']
-        }
-    }
+//         this.state = {
+//              name:'mahmud',
+//              obj:['rajshahi','dhaka','khulna']
+//         }
+//     }
     
-    render() {
-        return (
-            <div>
-                my name is {this.state.name}
-                <br/>
-                my city is {this.state.obj[0]}
-            </div>
-        )
-    }
-}
+//     render() {
+//         return (
+//             <div>
+//                 my name is {this.state.name}
+//                 <br/>
+//                 my city is {this.state.obj[0]}
+//             </div>
+//         )
+//     }
+// }
 
-export default State
+// export default State
