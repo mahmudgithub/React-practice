@@ -177,3 +177,17 @@
 // export default Propss
 
 
+// use props in functional components
+import React from 'react'
+
+const Propss = (props) => {
+    return (
+        <div>
+            my name is {props.name}
+            <br/>
+            my child is {props.children}
+        </div>
+    )
+}
+
+export default Propss

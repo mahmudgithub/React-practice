@@ -138,7 +138,7 @@ import React, { useState } from 'react'
 const Usestate1 = () => {
     const [info, setInfo]=useState({
         name:'',
-        roll: null
+        roll: ''
     })
     return (
         <div>

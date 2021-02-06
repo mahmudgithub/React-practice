@@ -61,12 +61,12 @@ const App=()=>{
 <Useeffect/> */}
 {/* <Httpcompl1/> */}
 {/* <Class/> */}
-{/* <Propss  name='mahmud'> i am children props</Propss> */}
+<Propss  name='mahmud'> i am children props</Propss>
 {/* <State/> */}
 {/* <EvenHandel/> */}
 {/* <BindEvent/> */}
 {/* <Setstate/> */}
-<Usestate1/>
+{/* <Usestate1/> */}
 
 
 
