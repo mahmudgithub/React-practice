@@ -156,17 +156,35 @@
 
 // export default BindEvent
 
-// use bind event in function
-import React from 'react'
-const BindEvent = () => {
-    const lol=(a)=>{
+// // use bind event in function
+// import React from 'react'
+// const BindEvent = () => {
+//     const lol=(a)=>{
+//         alert(a)
+//     }
+//     return (
+//         <div>
+//             <button onClick={lol.bind(this,'hello world')}>click </button>
+//         </div>
+//     )
+// }
+
+// export default BindEvent
+
+// use bind event in class 
+import React, { Component } from 'react'
+
+export class BindEvent extends Component {
+    lol=(a)=>{
         alert(a)
     }
-    return (
-        <div>
-            <button onClick={lol.bind(this,'hello world')}>click </button>
-        </div>
-    )
+    render() {
+        return (
+            <div>
+                <button onClick={this.lol.bind(this,'hi mahmud')}>click to change</button>
+            </div>
+        )
+    }
 }
 
 export default BindEvent
