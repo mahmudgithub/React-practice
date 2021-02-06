@@ -326,3 +326,34 @@
 // }
 
 // export default Setstate
+
+// // using setState and parameter value to change state value 
+// import React, { Component } from 'react'
+
+// export class Setstate extends Component {
+//     constructor(props) {
+//         super(props)
+    
+//         this.state = {
+//              arr:['mahmud','hossain','nannau']
+//         }
+//     }
+
+//     lol=()=>{
+//         this.setState({
+//             arr:this.state.arr=['lamyaa','nowsin','niva']
+//         })
+//     }
+    
+//     render() {
+//         return (
+//             <div>
+//                 names: {this.state.arr[1]}
+//                 <br/>
+//                 <button onClick={()=>this.lol()}>click to change name</button>
+//             </div>
+//         )
+//     }
+// }
+
+// export default Setstate
