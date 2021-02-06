@@ -258,3 +258,71 @@
 // }
 
 // export default Setstate
+
+// import React, { Component } from 'react'
+
+// export class Setstate extends Component {
+//     constructor(props) {
+//         super(props)
+    
+//         this.state = {
+//              name:'mahmud'
+//         }
+//     }
+//     lol=()=>{
+//         this.setState({
+//             name:'hossain'
+//         })
+//     }
+    
+//     render() {
+//         return (
+//             <div>
+//                 my name: {this.state.name}
+//                 <br/>
+//                 <button onClick={this.lol}>cick to change</button>
+//             </div>
+//         )
+//     }
+// }
+
+// export default Setstate
+
+
+// // using SetState incrise and decrise a number
+// import React, { Component } from 'react'
+
+// export class Setstate extends Component {
+//     constructor(props) {
+//         super(props)
+    
+//         this.state = {
+//              count:0
+//         }
+//     }
+//     one=()=>{
+//     this.setState({
+//         count:this.state.count+1
+//     })
+
+//     }
+//     two=()=>{
+//         this.setState({
+//             count:this.state.count-1
+//         })
+//     }
+    
+//     render() {
+//         return (
+//             <div>
+//                 count: {this.state.count}
+//                 <br/>
+//                 <button onClick={this.one}>click to add</button>
+//                 <br/>
+//                 <button onClick={this.two}>click to minus</button>
+//             </div>
+//         )
+//     }
+// }
+
+// export default Setstate
