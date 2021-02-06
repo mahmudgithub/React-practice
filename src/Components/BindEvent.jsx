@@ -189,7 +189,39 @@
 
 // export default BindEvent
 
-// use bind event in class componnets of state and setState method
+// // use bind event in class componnets of state and setState method
+// import React, { Component } from 'react'
+
+// export class BindEvent extends Component {
+//     constructor(props) {
+//         super(props)
+    
+//         this.state = {
+//              name:'mahmud'
+//         }
+//     }
+
+//     lol=()=>{
+//         this.setState({
+//             name:'hossain'
+//         })
+//     }
+    
+//     render() {
+//         return (
+//             <div>
+//                 name: {this.state.name}
+//                 <br/>
+//                 <button onClick={this.lol}>click to change</button>
+//             </div>
+//         )
+//     }
+// }
+
+// export default BindEvent
+
+
+// use bind event in class componnets state and setState variabe change
 import React, { Component } from 'react'
 
 export class BindEvent extends Component {
@@ -200,10 +232,9 @@ export class BindEvent extends Component {
              name:'mahmud'
         }
     }
-
-    lol=()=>{
+    lol=(a)=>{
         this.setState({
-            name:'hossain'
+            name:a
         })
     }
     
@@ -212,7 +243,7 @@ export class BindEvent extends Component {
             <div>
                 name: {this.state.name}
                 <br/>
-                <button onClick={this.lol}>click to change</button>
+                <button onClick={this.lol.bind(this,'hossain' )}>click to change </button>
             </div>
         )
     }
