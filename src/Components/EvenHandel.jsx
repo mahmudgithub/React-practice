@@ -196,33 +196,6 @@
 
 // export default EvenHandel
 
-// use onClick event in class components to change state value
-// import React, { Component } from 'react'
-
-// export class EvenHandel extends Component {
-//     constructor(props) {//         super(props)
-    
-//         this.state = {
-//               name:'mahmud'
-//         }
-//     }
-//     lol=(a)=>{
-//         name:this.a
-//     }
-//     render() {
-//         return (
-//             <div>
-//                 my name is {this.state.name}
-//                 <br/>
-//                 <button onClick={this.lol.bind(this,'hossain')}>click to change</button>
-//             </div>
-//         )
-//     }
-// }
-
-
-// export default EvenHandel
-
 // // use click event in functional components
 // import React from 'react'
 
@@ -274,21 +247,23 @@
 // export default EvenHandel
 
 
-// use click event in class arrary function
-import React, { Component } from 'react'
+// // use click event in class arrary function
+// import React, { Component } from 'react'
 
-export class EvenHandel extends Component {
+// export class EvenHandel extends Component {
 
-    lol=()=>{
-        alert('hi hossain')
-    }
-    render() {
-        return (
-            <div>
-                <button onClick={()=> this.lol()}>click to change</button>
-            </div>
-        )
-    }
-}
+//     lol=()=>{
+//         alert('hi hossain')
+//     }
+//     render() {
+//         return (
+//             <div>
+//                 <button onClick={()=> this.lol()}>click to change</button>
+//             </div>
+//         )
+//     }
+// }
 
-export default EvenHandel
+// export default EvenHandel
+
+

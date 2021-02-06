@@ -63,8 +63,8 @@ const App=()=>{
 {/* <Class/> */}
 {/* <Propss  name='mahmud'> i am children props</Propss> */}
 {/* <State/> */}
-<EvenHandel/>
-{/* <BindEvent/> */}
+{/* <EvenHandel/> */}
+<BindEvent/>
 {/* <Setstate/> */}
 {/* <Usestate1/> */}
 
