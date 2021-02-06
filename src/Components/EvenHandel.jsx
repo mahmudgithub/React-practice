@@ -223,18 +223,37 @@
 
 // export default EvenHandel
 
-// use click event in functional components
-import React from 'react'
+// // use click event in functional components
+// import React from 'react'
 
-const EvenHandel = () => {
-    const lol=()=>{
-        alert('hello')
+// const EvenHandel = () => {
+//     const lol=()=>{
+//         alert('hello')
+//     }
+//     return (
+//         <div>
+//             <button onClick={ lol}>click</button>
+//         </div>
+//     )
+// }
+
+// export default EvenHandel
+
+// use click event in class components
+import React, { Component } from 'react'
+
+export class EvenHandel extends Component {
+    lol=()=>{
+        alert('hello world')
     }
-    return (
-        <div>
-            <button onClick={ lol}>click</button>
-        </div>
-    )
+    render() {
+        return (
+            <div>
+                <button onClick={this.lol}>click to show</button>
+            </div>
+        )
+    }
 }
 
 export default EvenHandel
+
