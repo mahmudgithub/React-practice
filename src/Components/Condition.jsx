@@ -41,3 +41,44 @@
 // }
 
 // export default Condition
+
+// // ternary operetor
+// import React, { Component } from 'react'
+
+// export class Condition extends Component {
+//     constructor(props) {
+//         super(props)
+    
+//         this.state = {
+//              isuser:true
+//         }
+//     }
+    
+//     render() {
+//         return (this.state.isuser ? <div>i am user</div>: <div>i am not user</div>)
+//     }
+// }
+
+// export default Condition
+
+
+// // short circuit operetor
+// import React, { Component } from 'react'
+
+// export class Condition extends Component {
+//     constructor(props) {
+//         super(props)
+    
+//         this.state = {
+//              isuser:false
+//         }
+//     }
+    
+//     render() {
+//         return ( 
+//             this.state.isuser && <div>i am user</div>
+//         )
+//     }
+// }
+
+// export default Condition
