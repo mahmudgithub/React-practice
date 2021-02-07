@@ -19,6 +19,7 @@ import BindEvent from './Components/BindEvent';
 import Distructuring from './Components/Distructuring';
 import Allpactics from './Components/Allpactics';
 import Mother from './Components/Mother';
+import Condition from './Components/Condition';
 
 
 
@@ -71,7 +72,8 @@ const App=()=>{
 {/* <Setstate/> */}
 {/* <Usestate1/> */}
 {/* <Distructuring name='mahmud' city='rajshahi'/> */}
-<Mother/>
+{/* <Mother/> */}
+<Condition/>
 
 
 {/* <Allpactics/> */}
