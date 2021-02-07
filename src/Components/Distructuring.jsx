@@ -41,3 +41,29 @@
 // }
 
 // export default Distructuring
+
+
+// // class components state Distructuring
+// import React, { Component } from 'react'
+
+// export class Distructuring extends Component {
+//     constructor(props) {
+//         super(props)
+    
+//         this.state = {
+//              message:'hello world'
+//         }
+//     }
+    
+//     render() {
+//         const {message}=this.state
+//         return (
+//             <div>
+//               mahmud,  {message}
+//             </div>
+//         )
+//     }
+// }
+
+// export default Distructuring
+
