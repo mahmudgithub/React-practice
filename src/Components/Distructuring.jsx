@@ -93,3 +93,17 @@
 
 // export default Distructuring
 
+// import React, { Component } from 'react'
+
+// export class Distructuring extends Component {
+//     render() {
+//         const{name,city}=this.props
+//         return (
+//             <div>
+//                 {name} and {city}
+//             </div>
+//         )
+//     }
+// }
+
+// export default Distructuring
