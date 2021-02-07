@@ -24,3 +24,16 @@
 // }
 
 // export default Child
+
+// import React from 'react'
+
+// const Child = (props) => {
+//     return (
+//         <div>
+//             {/* {props.cool} */}
+//             <button onClick={props.cool}>click to change</button>
+//         </div>
+//     )
+// }
+
+// export default Child

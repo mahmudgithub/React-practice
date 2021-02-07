@@ -45,3 +45,34 @@
 // }
 
 // export default Mother
+
+
+// import React, { Component } from 'react'
+// import Child from './Child'
+
+// export class Mother extends Component {
+//     constructor(props) {
+//         super(props)
+    
+//         this.state = {
+//              message:'hello, mahmud'
+//         }
+//     }
+//     lol=()=>{
+//         this.setState({
+//             message:this.state.message='hello, lamyaa'
+//         })
+//     }
+    
+//     render() {
+//         return (
+//             <div>
+//                 {this.state.message}
+//                 <br/>
+//                 <Child cool={this.lol}/>
+//             </div>
+//         )
+//     }
+// }
+
+// export default Mother
