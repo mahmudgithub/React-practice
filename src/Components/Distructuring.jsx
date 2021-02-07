@@ -79,3 +79,17 @@
 // }
 
 // export default Distructuring
+
+// import React from 'react'
+
+// const Distructuring = (props) => {
+//     const{name}=props
+//     return (
+//         <div>
+//             {name}
+//         </div>
+//     )
+// }
+
+// export default Distructuring
+
