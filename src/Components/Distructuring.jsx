@@ -12,3 +12,15 @@
 
 // export default Distructuring
 
+// second way of props Distructuring 
+import React from 'react'
+
+const Distructuring = ({name, city}) => {
+    return (
+        <div>
+            {name} and {city}
+        </div>
+    )
+}
+
+export default Distructuring
