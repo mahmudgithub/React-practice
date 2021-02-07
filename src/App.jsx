@@ -17,6 +17,8 @@ import Setstate from './Components/Setstate';
 import EvenHandel from './Components/EvenHandel';
 import BindEvent from './Components/BindEvent';
 import Distructuring from './Components/Distructuring';
+import Allpactics from './Components/Allpactics';
+import Mother from './Components/Mother';
 
 
 
@@ -68,10 +70,11 @@ const App=()=>{
 {/* <BindEvent/> */}
 {/* <Setstate/> */}
 {/* <Usestate1/> */}
-<Distructuring name='mahmud' city='rajshahi'/>
+{/* <Distructuring name='mahmud' city='rajshahi'/> */}
+<Mother/>
 
 
-
+{/* <Allpactics/> */}
 </div> 
   )
 }
