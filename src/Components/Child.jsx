@@ -31,7 +31,7 @@
 //     return (
 //         <div>
 //             {/* {props.cool} */}
-//             <button onClick={props.cool}>click to change</button>
+//             <button onClick={props.cool.bind(this,'mahmud+lamyaa')}>click to change</button>
 //         </div>
 //     )
 // }

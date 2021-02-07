@@ -58,9 +58,9 @@
 //              message:'hello, mahmud'
 //         }
 //     }
-//     lol=()=>{
+//     lol=(data)=>{
 //         this.setState({
-//             message:this.state.message='hello, lamyaa'
+//             message:this.state.message=`hello, lamyaa i like you so  ${data}`
 //         })
 //     }
     
