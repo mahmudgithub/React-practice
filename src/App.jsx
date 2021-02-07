@@ -16,6 +16,7 @@ import State from './Components/State';
 import Setstate from './Components/Setstate';
 import EvenHandel from './Components/EvenHandel';
 import BindEvent from './Components/BindEvent';
+import Distructuring from './Components/Distructuring';
 
 
 
@@ -65,9 +66,9 @@ const App=()=>{
 {/* <State/> */}
 {/* <EvenHandel/> */}
 {/* <BindEvent/> */}
-<Setstate/>
+{/* <Setstate/> */}
 {/* <Usestate1/> */}
-
+<Distructuring name='mahmud' city='rajshahi'/>
 
 
 
