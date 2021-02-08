@@ -47,3 +47,19 @@
 // }
 
 // export default Allpactics
+
+// import React from 'react'
+
+// function Allpactics() {
+//     const lol =()=>{
+//         alert('hi, mahmud')
+//     }
+//     return (
+//         <div>
+            
+//             <button onClick={lol}>click to event </button>
+//         </div>
+//     )
+// }
+
+// export default Allpactics
