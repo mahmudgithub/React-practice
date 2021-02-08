@@ -366,3 +366,86 @@
 // export default Allpactics
 
 
+// import React, { Component } from 'react'
+// import Allpactics2 from './Allpactics2'
+
+// export class Allpactics extends Component {
+//     constructor(props) {
+//         super(props)
+    
+//         this.state = {
+//              message:'mahmud'
+//         }
+//         this.lol=this.lol.bind(this)
+//     }
+
+// pol=()=>{
+//     this.setState({
+//         message:'HOSSAIN'
+//     })
+// }
+
+// lol=()=>{
+//     this.setState({
+//         message:'hossain'
+//     })
+// }
+    
+//     render() {
+//         return (
+//             <div>
+//                 {this.state.message}
+//                 <br/>
+//                 <button onClick={this.pol}>click to change first</button>
+//                 <Allpactics2 sos={this.lol}/>
+                
+//             </div>
+//         )
+//     }
+// }
+
+// export default Allpactics
+
+
+// import React, { Component } from 'react'
+// import Allpactics2 from './Allpactics2'
+
+// export class Allpactics extends Component {
+//     constructor(props) {
+//         super(props)
+    
+//         this.state = {
+//              LoverNames:'',
+//              BestLover:''
+//         }
+//         this.lovers=this.lovers.bind(this)
+//         this.love=this.love.bind(this)
+//     }
+
+//     lovers=()=>{
+//         this.setState({
+//             LoverNames:[`'lima', 'sorovi', 'jeba', 'nowsin', 'lamyaa'`]
+//         })
+//     }
+    
+//     love=()=>{
+//         this.setState({
+//             BestLover:'lamyaa'
+//         })
+//     }
+//     render() {
+//         return (
+//             <div>  
+//                my lovers are  <span style={{color:'red'}}>{this.state.LoverNames }</span>
+//                 <br/>
+//                 <button className='btn btn-primary' onClick={this.lovers}>click to lovers list</button>
+
+//                 <Allpactics2 pog={this.love} tob={this.state.BestLover}/>
+                
+//             <br/>
+//             </div>
+//         )
+//     }
+// }
+
+// export default Allpactics
