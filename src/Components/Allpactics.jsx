@@ -175,3 +175,32 @@
 // }
 
 // export default Allpactics
+
+// import React, { Component } from 'react'
+
+// export class Allpactics extends Component {
+//     constructor(props) {
+//         super(props)
+    
+//         this.state = {
+//              name:'mahmud'
+//         }
+//     }
+//     lol=(a)=>{
+//         this.setState({
+//             name:a
+//         })
+//     }
+    
+//     render() {
+//         return (
+//             <div>
+//                 {this.state.name}
+//                 <br/>
+//                 <button onClick={this.lol.bind(this,'hossai')}>click to change</button>
+//                             </div>
+//         )
+//     }
+// }
+
+// export default Allpactics
