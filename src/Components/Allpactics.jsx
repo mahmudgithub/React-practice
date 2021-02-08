@@ -326,3 +326,41 @@
 
 // export default Allpactics
 
+import React, { Component } from 'react'
+
+// export class Allpactics extends Component {
+//     constructor(props) {
+//         super(props)
+    
+//         this.state = {
+//              count:0
+//         }
+//         this.lol=this.lol.bind(this)
+//         this.pol=this.pol.bind(this)
+//     }
+    
+//     lol=()=>{
+//         this.setState({
+//             count:this.state.count+1
+//         })
+//     }
+//     pol=()=>{
+//         this.setState({
+//             count:this.state.count-1
+//         })
+//     }
+//     render() {
+//         return (
+//             <div>
+//                 {this.state.count}
+//                 <br/>
+//                 <button className='btn btn-primary' onClick={this.lol}>incrise value </button>
+//                 <button className='btn btn-danger' onClick={this.pol}>incrise value </button>
+
+
+//             </div>
+//         )
+//     }
+// }
+
+// export default Allpactics
