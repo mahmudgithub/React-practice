@@ -113,3 +113,18 @@
 // }
 
 // export default Allpactics
+
+// import React from 'react'
+
+// function Allpactics() {
+//     const lol=(a)=>{
+//         alert('hello '+ a)
+//     }
+//     return (
+//         <div>
+//             <button onClick={lol.bind(this,'hossain')}>click to change</button>
+//         </div>
+//     )
+// }
+
+// export default Allpactics
