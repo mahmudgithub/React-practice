@@ -235,4 +235,63 @@
 
 // export default Allpactics
 
+// import React, { Component } from 'react'
+
+// export class Allpactics extends Component {
+//     constructor(props) {
+//         super(props)
+    
+//         this.state = {
+//              message:'hello world'
+//         }
+//         this.lol=this.lol.bind(this)
+//     }
+//     lol=()=>{
+//         this.setState({
+//             message:'hello world2 fom mahmd'
+//         })
+//     }
+    
+//     render() {
+//         return (
+//             <div>
+//                 {this.state.message}
+//                 <br/>
+//                 <button onClick={this.lol}>click to change</button>
+//             </div>
+//         )
+//     }
+// }
+
+// export default Allpactics
+
+
+// import React, { Component } from 'react'
+
+// export class Allpactics extends Component {
+//     constructor(props) {
+//         super(props)
+    
+//         this.state = {
+//              message:'mahmud'
+//         }
+//         this.lol=this.lol.bind(this)
+//     }
+//     lol=()=>{
+//         this.setState({
+//             message:'hossain'
+//         })
+//     }
+    
+//     render() {
+//         return (
+//             <div>
+//                 {this.state.message}
+//                 <button onClick={this.lol}>click</button>
+//             </div>
+//         )
+//     }
+// }
+
+// export default Allpactics
 
