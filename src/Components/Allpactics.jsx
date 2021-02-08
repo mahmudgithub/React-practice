@@ -130,19 +130,20 @@
 // export default Allpactics
 
 
-import React, { Component } from 'react'
+// import React, { Component } from 'react'
 
-export class Allpactics extends Component {
-    lol=(a)=>{
-        alert(a)
-    }
-    render() {
-        return (
-            <div>
-                <button onClick={this.lol.bind(this,'lamyaa nowsin')}>click to change </button>
-            </div>
-        )
-    }
-}
+// export class Allpactics extends Component {
+//     lol=(a)=>{
+//         alert(a)
+//     }
+//     render() {
+//         return (
+//             <div>
+//                 <button onClick={this.lol.bind(this,'lamyaa nowsin')}>click to change </button>
+//             </div>
+//         )
+//     }
+// }
 
-export default Allpactics
+// export default Allpactics
+
