@@ -82,3 +82,17 @@
 
 // export default Allpactics
 
+// import React from 'react'
+
+// const Allpactics = () => {
+//     const lol=()=>{
+//         alert('hello,lamyaa')
+//     }
+//     return (
+//         <div>
+//             <button onClick={()=>lol()}>click to change</button>
+//         </div>
+//     )
+// }
+
+// export default Allpactics
