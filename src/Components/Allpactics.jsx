@@ -63,3 +63,22 @@
 // }
 
 // export default Allpactics
+
+
+// import React, { Component } from 'react'
+
+// export class Allpactics extends Component {
+//     lol=()=>{
+//         alert('hi,hossain')
+//     }
+//     render() {
+//         return (
+//             <div>
+//                 <button onClick={this.lol}>click to update</button>
+//             </div>
+//         )
+//     }
+// }
+
+// export default Allpactics
+
