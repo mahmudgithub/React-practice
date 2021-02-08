@@ -326,7 +326,7 @@
 
 // export default Allpactics
 
-import React, { Component } from 'react'
+// import React, { Component } from 'react'
 
 // export class Allpactics extends Component {
 //     constructor(props) {
@@ -364,3 +364,5 @@ import React, { Component } from 'react'
 // }
 
 // export default Allpactics
+
+
