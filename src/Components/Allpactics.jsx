@@ -533,3 +533,24 @@
 // }
 
 // export default Allpactics
+
+
+// import React, { Component } from 'react'
+
+// export class Allpactics extends Component {
+//     constructor(props) {
+//         super(props)
+    
+//         this.state = {
+//              name:'mahmud'
+//         }
+//     }
+    
+//     render() {
+//         if (this.state.name=='mahmud'){return (`this is my name is ${this.state.name}`)}
+//         else{return (`this not my name`)}
+//     }
+// }
+
+// export default Allpactics
+
