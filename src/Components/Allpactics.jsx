@@ -449,3 +449,49 @@
 // }
 
 // export default Allpactics
+
+// today 9.2.2021 pactics
+// import React, { Component } from 'react'
+
+// export class Allpactics extends Component {
+//     constructor(props) {
+//         super(props)
+    
+//         this.state = {
+//              isuser:false,
+//              name:'mahmud'
+//         }
+//     }
+    
+//     render() {
+//         if (this.state.isuser) {return 'yes' }
+//        else{return this.state.name}
+        
+//     }
+// }
+
+
+
+
+// import React, { Component } from 'react'
+
+// export class Allpactics extends Component {
+//     constructor(props) {
+//         super(props)
+    
+//         this.state = {
+//              isuser:true
+//         }
+//     }
+
+    
+//     render() {
+//         let message
+
+//         if (this.state.isuser){message='true'}
+//         else{message='false'}
+//         return(message)
+//     }
+// }
+
+// export default Allpactics
