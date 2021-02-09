@@ -495,3 +495,21 @@
 // }
 
 // export default Allpactics
+
+// import React, { Component } from 'react'
+
+// export class Allpactics extends Component {
+//     constructor(props) {
+//         super(props)
+    
+//         this.state = {
+//              isuser: 'mahmud'
+//         }
+//     }
+    
+//     render() {
+//         return (this.state.isuser=='mahmud' ? 'true': 'wrong')
+//     }
+// }
+
+// export default Allpactics
