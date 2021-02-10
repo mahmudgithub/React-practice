@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { Fragment, useState } from 'react'
 import './App.css';
 import Axioss from './Components/Axioss';
 import Propss from './Components/Propss';
@@ -20,6 +20,8 @@ import Distructuring from './Components/Distructuring';
 import Allpactics from './Components/Allpactics';
 import Mother from './Components/Mother';
 import Condition from './Components/Condition';
+import Fragments from './Components/Fragments';
+
 
 
 
@@ -74,9 +76,11 @@ const App=()=>{
 {/* <Distructuring name='mahmud' city='rajshahi'/> */}
 {/* <Mother/> */}
 {/* <Condition/> */}
+<Fragments/>
 
 
-<Allpactics/>
+
+{/* <Allpactics/> */}
 </div> 
   )
 }
