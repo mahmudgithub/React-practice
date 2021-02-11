@@ -21,6 +21,8 @@ import Allpactics from './Components/Allpactics';
 import Mother from './Components/Mother';
 import Condition from './Components/Condition';
 import Fragments from './Components/Fragments';
+import Higherorder from './Components/Higherorder';
+import Higherorder2 from './Components/Higherorder2';
 
 
 
@@ -76,7 +78,9 @@ const App=()=>{
 {/* <Distructuring name='mahmud' city='rajshahi'/> */}
 {/* <Mother/> */}
 {/* <Condition/> */}
-<Fragments/>
+{/* <Fragments/> */}
+<Higherorder/>
+<Higherorder2/>
 
 
 
