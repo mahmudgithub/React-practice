@@ -79,8 +79,8 @@ const App=()=>{
 {/* <Mother/> */}
 {/* <Condition/> */}
 {/* <Fragments/> */}
-<Higherorder/>
-<Higherorder2/>
+{/* <Higherorder love='lamyaa'/>
+<Higherorder2/> */}
 
 
 
