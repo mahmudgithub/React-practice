@@ -60,3 +60,20 @@
 // }
 
 // export default HookuseState
+
+// import React,{useState} from 'react'
+
+// const HookuseState = () => {
+//     const [count, setCount] = useState(0)
+//     const lol=()=>{
+//             setCount(count+10) 
+//     }
+//     return (
+//         <div>
+//             {count}
+//             <button onClick={()=>lol()}>click to update</button>
+//         </div>
+//     )
+// }
+
+// export default HookuseState
