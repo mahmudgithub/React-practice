@@ -77,3 +77,26 @@
 // }
 
 // export default HookuseState
+
+// import React,{useState} from 'react'
+
+// const HookuseState = () => {
+//     const [dod, setDod] = useState()
+//     const lol=()=>{
+//         let x=10;
+//         let y=10;
+//         let sum=x+y;
+//         setDod(sum+1)
+//     }
+
+//     return (
+//         <div>
+//             {dod}
+//             <button onClick={()=>lol()}>click to change</button>
+//         </div>
+//     )
+// }
+
+// export default HookuseState
+
+
