@@ -45,3 +45,18 @@
 // }
 
 // export default HookuseState
+
+// import React,{useState} from 'react'
+
+// const HookuseState = () => {
+//     const [count, setCount] = useState(0)
+//     return (
+//         <div>
+//             {count}
+//             <br/>
+//             <button onMouseOver={()=>setCount(count+10)}>click to update</button>
+//         </div>
+//     )
+// }
+
+// export default HookuseState
