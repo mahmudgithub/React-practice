@@ -1,12 +1,9 @@
-import React, {  useState } from 'react'
 import './App.css';
+import React, {  useState } from 'react'
 import Axioss from './Components/Axioss';
 import Propss from './Components/Propss';
 import Reactfragment from './Components/Reactfragment';
 import Useeffect from './Components/Useeffect';
-import Usestate1 from './Components/Usestate1';
-import Usestate2 from './Components/Usestate2';
-import Usestate3 from './Components/Usestate3';
 import {BrowserRouter, Link, Route, Switch } from 'react-router-dom';
 import Router1 from './Components/Router1';
 import Router2 from './Components/Router2';
@@ -27,20 +24,9 @@ import HookuseState from './Components/HookuseState';
 
 
 
-
-
-
-
 const App=()=>{
-  
-
-  return (
-
+return (
 <div>
-
-
-
-
 {/* <BrowserRouter>
 <ul>
   <li>
@@ -59,14 +45,13 @@ const App=()=>{
     <Router2/>
   </Route>
 </Switch>
-</BrowserRouter>
+</BrowserRouter> */}
 
 
-<Reactfragment/>
 
-<Usestate2/>
-<Usestate3/>
-<Useeffect/> */}
+
+{/* <Reactfragment/> */}
+{/* <Useeffect/>  */}
 {/* <Httpcompl1/> */}
 {/* <Class/> */}
 {/* <Propss  name='mahmud'> i am children props</Propss> */}
@@ -74,7 +59,6 @@ const App=()=>{
 {/* <EvenHandel/> */}
 {/* <BindEvent/> */}
 {/* <Setstate/> */}
-{/* <Usestate1/> */}
 {/* <Distructuring name='mahmud' city='rajshahi'/> */}
 {/* <Mother/> */}
 {/* <Condition/> */}
