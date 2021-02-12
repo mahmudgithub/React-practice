@@ -285,3 +285,50 @@
 // }
 
 // export default Usestate1
+
+
+// import React,{useState} from 'react'
+
+// const HookuseState = () => {
+//     const [inpu, setInpu] = useState({
+//         name:'',
+//         city:'',
+//         roll:''
+//     })
+//     return (
+//         <div>
+//            {/* hi: {inpu} */}
+//            <form>
+//            <input value={inpu.name} onChange={(e)=>setInpu({...inpu, name: e.target.value})}/>
+//            <input value={inpu.city} onChange={(e)=>setInpu({...inpu, city:e.target.value})}/>
+//            <input value ={inpu.roll} onChange={(e)=>setInpu({...inpu,roll: e.target.value})}/>
+//            </form>
+//            name: {inpu.name}
+//            <br/>
+//            city: {inpu.city}
+//            <br/>
+//            roll:{inpu.roll}
+//         </div>
+//     )
+// }
+
+// export default HookuseState
+
+
+// import React,{useState} from 'react'
+
+// const HookuseState = () => {
+//     const [sos, setSos] = useState({
+//         name:'',
+//         roll:''
+//     })
+//     return (
+//         <div>
+            
+//             <input onChange={(e)=>setSos({...sos,name: e.target.value})} type="text"/>{sos.name}<br/>
+//             <input onChange={(e)=>setSos({...sos,roll: e.target.value})} type="text"/>{sos.roll}
+//         </div>
+//     )
+// }
+
+// export default HookuseState
