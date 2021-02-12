@@ -23,6 +23,7 @@ import Condition from './Components/Condition';
 import Fragments from './Components/Fragments';
 import Higherorder from './Components/Higherorder';
 import Higherorder2 from './Components/Higherorder2';
+import HookuseState from './Components/HookuseState';
 
 
 
@@ -65,7 +66,6 @@ const App=()=>{
 
 <Usestate2/>
 <Usestate3/>
-<Axioss/>
 <Useeffect/> */}
 {/* <Httpcompl1/> */}
 {/* <Class/> */}
@@ -81,6 +81,8 @@ const App=()=>{
 {/* <Fragments/> */}
 {/* <Higherorder love='lamyaa'/>
 <Higherorder2/> */}
+{/* <Axioss/> */}
+<HookuseState/>
 
 
 
