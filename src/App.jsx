@@ -21,6 +21,7 @@ import Fragments from './Components/Fragments';
 import Higherorder from './Components/Higherorder';
 import Higherorder2 from './Components/Higherorder2';
 import HookuseState from './Components/HookuseState';
+import HookuseEffect from './Components/HookuseEffect';
 
 
 
@@ -66,7 +67,8 @@ return (
 {/* <Higherorder love='lamyaa'/>
 <Higherorder2/> */}
 {/* <Axioss/> */}
-<HookuseState/>
+{/* <HookuseState/> */}
+<HookuseEffect/>
 
 
 
