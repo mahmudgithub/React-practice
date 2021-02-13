@@ -332,3 +332,83 @@
 // }
 
 // export default HookuseState
+
+// import React,{useState} from 'react'
+
+// const HookuseState = () => {
+//     const [one, setOne] = useState(0)
+
+//     const lol=()=>{
+//         setOne(one+1)
+//     }
+//     return (
+//         <div>
+//             {one}
+//             <button onClick={()=>lol()}>click to change</button>
+//         </div>
+//     )
+// }
+
+// export default HookuseState
+
+// import React,{useState} from 'react'
+
+// const HookuseState = () => {
+//     const [two, setTwo] = useState(0)
+//     const lol=()=>{
+        
+//         let x=10;
+//         let y=10;
+//         let sum=x+y;
+//         setTwo(sum);
+        
+//     }
+//     return (
+//         <div>
+//             {two}
+//             <button onClick={()=>lol()}>click to change</button>
+//         </div>
+//     )
+// }
+
+// export default HookuseState
+
+
+// import React,{useState} from 'react'
+
+// const HookuseState = () => {
+//     const [count, setCount] = useState({
+//     start:'mahmud',
+//     end:'hossain'
+//     })
+
+//     return (
+//         <div>
+//             {count.start} + {count.end}
+//             <br/>
+//             <input value={count.start} onChange={(e)=>setCount({...count,start: e.target.value})} type="text"/>
+//             <input value={count.end} onChange={(e)=>setCount({...count,end:e.target.value})} type="text"/><br/>
+            
+//         </div>
+//     )
+// }
+
+// export default HookuseState
+
+// import React,{useState} from 'react'
+
+// const HookuseState = () => {
+//     const [obj, setObj] = useState({
+//         name:'',
+//         city:''
+//     })
+//     return (
+//         <div>
+//             {obj.name} and {obj.city}
+//             <input value={obj.name} onChange={(e)=> setObj({...obj,name:e.target.value})}type="text"/>
+//             <input value={obj.city} onChange={(e)=> setObj({...obj,city:e.target.value})}type="text"/>
+//         </div>
+//     )
+// }
+
+// export default HookuseState
