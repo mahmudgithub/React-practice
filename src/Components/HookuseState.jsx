@@ -412,3 +412,45 @@
 // }
 
 // export default HookuseState
+
+// import React,{useState} from 'react'
+
+// const HookuseState = () => {
+//     const [arr, setarr] = useState([1,2,3,4,5,6])
+//     return (
+//         <div>
+            
+//                 {
+//                     arr.map((list, index)=>{
+//                     return <li>{list}</li>
+//                     })
+//                 }
+            
+            
+            
+//         </div>
+//     )
+// }
+
+// export default HookuseState
+
+
+// import React,{useState} from 'react'
+
+// const HookuseState = () => {
+//     const [arr, setarr] = useState(['mahmud','hossain','lamyaa','nowsin'])
+//     return (
+//         <div>{
+            
+//             arr.map((arr,index)=>{
+//                 console.log(...arr);
+//                 return (<li key={index}>{arr}</li>) 
+
+//             })
+//         }
+//         </div>
+//     )
+// }
+
+// export default HookuseState
+
