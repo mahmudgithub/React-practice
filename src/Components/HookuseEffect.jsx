@@ -76,22 +76,49 @@
 
 // export default HookuseEffect
 
-import React,{useState,useEffect} from 'react'
+// import React,{useState,useEffect} from 'react'
 
-const HookuseEffect = () => {
-    const [one, setone] = useState(0)
+// const HookuseEffect = () => {
+//     const [one, setone] = useState(0)
 
-    useEffect(() => {
-        document.title=`value:${one}`
-        console.log('test');
-    },[])
-    return (
-        <div>
-           value: {one}
-            <br/>
-            <button onClick={()=>setone(one+1)}>click to count</button>
-        </div>
-    )
-}
+//     useEffect(() => {
+//         document.title=`value:${one}`
+//         console.log('test');
+//     },[])
+//     return (
+//         <div>
+//            value: {one}
+//             <br/>
+//             <button onClick={()=>setone(one+1)}>click to count</button>
+//         </div>
+//     )
+// }
 
-export default HookuseEffect
+// export default HookuseEffect
+
+// import React,{useState,useEffect} from 'react'
+
+// const HookuseEffect = () => {
+//     const [x, setX] = useState(0)
+//     const [y, setY] = useState(0)
+
+
+//     const LogMouseMove=(e)=>{
+//         console.log('mouse move');
+//         setX(e.clientX)
+//         setY(e.clientY)
+//     }
+//     useEffect(() => {
+//         console.log('efect run');
+//         window.addEventListener('mousemove',LogMouseMove)
+
+//     }, [])
+//     return (
+//         <div>
+//             x-:{x} and y-:{y}
+//         </div>
+//     )
+// }
+
+// export default HookuseEffect
+
