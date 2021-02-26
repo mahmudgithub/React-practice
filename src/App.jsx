@@ -68,11 +68,11 @@ return (
 <Higherorder2/> */}
 {/* <Axioss/> */}
 {/* <HookuseState/> */}
-<HookuseEffect/>
+{/* <HookuseEffect/> */}
 
 
 
-{/* <Allpactics/> */}
+<Allpactics name='mahmud'  age='26' />
 </div> 
   )
 }

@@ -590,3 +590,17 @@
 // }
 
 // export default Allpactics
+
+
+//pactics function base props
+import React from 'react'
+
+const Allpactics = (props) => {
+    return (
+        <div>
+            hello {props.name} , your age is {props.age}
+        </div>
+    )
+}
+
+export default Allpactics
