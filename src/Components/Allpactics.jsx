@@ -738,37 +738,92 @@
 // }
 
 // export default Allpactics
-//keep array, object and function in state propertic values
+// //keep array, object and function in state propertic values
+// import React, { Component } from 'react'
+
+// export class Allpactics extends Component {
+//     constructor(props) {
+//         super(props)
+    
+//         this.state = {
+//              name:'mahmud',
+//              arr:['apple','banana','mango'],
+//              obj:{age:26},
+//              fn:function(){return `i am hossain`}
+//         }
+//     }
+    
+//     render() {
+//         return (
+//             <div>
+//                 {this.state.name}
+//                 <br/>
+//                 {this.state.obj.age}
+//                 <br/>
+//                 {this.state.arr[1]}
+//                 <br/>
+//                 {this.state.fn()}
+//             </div>
+//         )
+//     }
+// }
+
+// export default Allpactics
+
+//event handeling
+// //functional components
+// import React from 'react'
+
+// const Allpactics = () => {
+//     const lol=()=>{
+//         var arr=['apple','banana','coconat','mango'];
+//         var one=arr.map((item)=>{
+//             setTimeout(()=>{
+//                 alert('Assalamu alikum')
+//                 console.log(item);
+//             },3000)
+//         })
+//     }
+//     return (
+//         <div>
+//             <button onClick={()=>lol()}>click to show data</button>
+//         </div>
+//     )
+// }
+
+// export default Allpactics
+//use map function in class components
 import React, { Component } from 'react'
 
 export class Allpactics extends Component {
     constructor(props) {
         super(props)
-    
+       
         this.state = {
-             name:'mahmud',
-             arr:['apple','banana','mango'],
-            //  obj:{age:26},
-             fn:function(){return `i am hossain`}
+            list:['mahmud','hossain','nannu']
         }
+          this.lol=this.lol.bind(this)
+    }
+    lol=()=>{
+        this.setState({
+            list:['apple','banaana','mango']
+        })
     }
     
     render() {
         return (
             <div>
-                {this.state.name}
-                <br/>
-                {this.state.obj}
-                <br/>
-                {this.state.arr[1]}
-                <br/>
-                {this.state.fn()}
-            </div>
+            <ul>
+              {this.state.list.map((item) => <li>{item}</li>)}
+            </ul>
+            <button onClick={()=>this.lol()}>click to list change</button>
+          </div>
         )
     }
 }
 
 export default Allpactics
+
 
 
 // //state,setState with button
