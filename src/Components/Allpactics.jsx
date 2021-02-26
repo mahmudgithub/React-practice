@@ -645,7 +645,100 @@
 // }
 
 // export default Allpactics
-//pactics class base state 
+// //pactics class base state 
+// import React, { Component } from 'react'
+
+// export class Allpactics extends Component {
+//     constructor(props) {
+//         super(props)
+    
+//         this.state = {
+//              message:'hello'
+//         }
+//     }
+    
+//     render() {
+//         return (
+//             <div>
+//                 {this.state.message}
+//             </div>
+//         )
+//     }
+// }
+
+// export default Allpactics
+// //state simple example
+// import React, { Component } from 'react'
+
+// export class Allpactics extends Component {
+//     constructor(props) {
+//         super(props)
+    
+//         this.state = {
+//              name:'mahmud'
+//         }
+//     }
+    
+//     render() {
+//         return (
+//             <div>
+//                 hello {this.state.name}
+//             </div>
+//         )
+//     }
+// }
+
+// export default Allpactics
+// //access object value with state
+// import React, { Component } from 'react'
+
+// export class Allpactics extends Component {
+//     constructor(props) {
+//         super(props)
+    
+//         this.state = {
+//              name:'mahmud',
+//              age:26,
+//              city:'rajshahi'
+//         }
+//     }
+    
+//     render() {
+//         return (
+//             <div>
+//                 `my name is {this.state.name} and city {this.state.city}`
+//             </div>
+//         )
+//     }
+// }
+
+// export default Allpactics
+// //create object outer state and then  access it into state
+// import React, { Component } from 'react'
+
+// export class Allpactics extends Component {
+//     constructor(props) {
+//         super(props)
+//     const obj={
+//         name:'mahmud',
+//         age:26,
+//         city:'rajshahi'
+        
+//     }
+//         this.state = obj
+//     }
+    
+//     render() {
+//         return (
+//             <div>
+//                 {this.state.name} {this.state.age} {this.state.city}
+//             </div>
+//         )
+//     }
+// }
+
+// export default Allpactics
+//keep array, object and function in state propertic values
 import React, { Component } from 'react'
 
 export class Allpactics extends Component {
@@ -653,17 +746,59 @@ export class Allpactics extends Component {
         super(props)
     
         this.state = {
-             message:'hello'
+             name:'mahmud',
+             arr:['apple','banana','mango'],
+            //  obj:{age:26},
+             fn:function(){return `i am hossain`}
         }
     }
     
     render() {
         return (
             <div>
-                {this.state.message}
+                {this.state.name}
+                <br/>
+                {this.state.obj}
+                <br/>
+                {this.state.arr[1]}
+                <br/>
+                {this.state.fn()}
             </div>
         )
     }
 }
 
 export default Allpactics
+
+
+// //state,setState with button
+// import React, { Component } from 'react'
+
+// export class Allpactics extends Component {
+//     constructor(props) {
+//         super(props)
+    
+//         this.state = {
+//              message:'i am mahmud'
+//         }
+//         this.lol=this.lol.bind(this)
+//     }
+//     lol=()=>{
+//         this.setState({
+//             message:'i am hossain'
+//         })
+
+//     }
+    
+//     render() {
+//         return (
+//             <div>
+//                 {this.state.message}
+//                 <br/>
+//                 <button className='btn btn-dark p-1' onClick={()=>this.lol()}>clicl to chnage</button>
+//             </div>
+//         )
+//     }
+// }
+
+// export default Allpactics
