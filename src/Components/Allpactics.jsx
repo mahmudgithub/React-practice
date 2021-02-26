@@ -645,4 +645,25 @@
 // }
 
 // export default Allpactics
+//pactics class base state 
+import React, { Component } from 'react'
 
+export class Allpactics extends Component {
+    constructor(props) {
+        super(props)
+    
+        this.state = {
+             message:'hello'
+        }
+    }
+    
+    render() {
+        return (
+            <div>
+                {this.state.message}
+            </div>
+        )
+    }
+}
+
+export default Allpactics

@@ -72,7 +72,7 @@ return (
 
 
 
-<Allpactics name='mahmud'  age='26' >i am child props, my age is </Allpactics>
+<Allpactics/>
 </div> 
   )
 }
