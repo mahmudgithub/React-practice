@@ -847,46 +847,37 @@
 
 // export default Allpactics
 
-import React, { Component } from 'react'
+// import React, { Component } from 'react'
 
-export class Allpactics extends Component {
-    constructor(props) {
-        super(props)
+// export class Allpactics extends Component {
+//     constructor(props) {
+//         super(props)
     
-        this.state = {
-             arr:[1,2,3,4,5,6]
-        }
-        this.lol=this.lol.bind(this)
-        this.tol=this.tol.bind(this)
-    }
-    lol=()=>{
-        this.setState({
-            arr:[8,9,10,11,12,13]
-        })
-
-    tol=()=>{
-        this.setState({
-            arr:lol.reduce((total,item)=>{total+item})
-        })
-    }
-        
-    }
+//         this.state = {
+//              arr:[1,2,3,4,5,6]
+//         }
+//         this.lol=this.lol.bind(this)
+//     }
+//     lol=()=>{
+//         this.setState({
+//             arr:[8,9,10,11,12,13]
+//         })
+//     }
     
-    render() {
-        return (
-            <div>
-                {this.state.arr}
-                <button onClick={()=>setTimeout(()=>{this.lol()},3000)}>click </button>
-                {this.state.arr.map((item)=><li>{item}</li>)}
-                <button onClick={()=>setTimeout(()=>{this.tol()},5000)}>sum</button>
-                {this.state.arr}
-            </div>
-        )
-    }
-}
+//     render() {
+//         return (
+//             <div>
+//                 {this.state.arr}
+//                 <button onClick={()=>setTimeout(()=>{this.lol()},3000)}>click </button>
+//                 {this.state.arr.map((item)=><li>{item}</li>)}
+//             </div>
+//         )
+//     }
+// }
 
-export default Allpactics
+// export default Allpactics
 
+//
 
 // //state,setState with button
 // import React, { Component } from 'react'
@@ -916,6 +907,53 @@ export default Allpactics
 //             </div>
 //         )
 //     }
+// }
+
+// export default Allpactics
+
+// //use setstate increment value
+// import React, { Component } from 'react'
+
+// export class Allpactics extends Component {
+//     constructor(props) {
+//         super(props)
+    
+//         this.state = {
+//              num:0
+//         }
+//         this.lol=this.lol.bind(this)
+//     }
+//     lol=()=>{
+//         this.setState({
+//             num:this.state.num+1
+//         })
+//     }
+//     render() {
+//         return (
+//             <div>
+//                 {this.state.num}
+//                 <button onClick={()=>this.lol()}>incrise </button>
+//             </div>
+//         )
+//     }
+// }
+
+// export default Allpactics
+
+// //using useState incrise value
+// import React,{useState} from 'react'
+
+// const Allpactics = () => {
+//     const [count, setcount] = useState(0);
+//     const lol=()=>{
+//         setcount(count+1)
+//     }
+//     return (
+//         <div>
+//             {count}
+//             <button onClick={()=>lol()}>click to incrise</button>
+//         </div>
+//     )
 // }
 
 // export default Allpactics
