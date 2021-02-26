@@ -619,16 +619,30 @@
 // }
 
 // export default Allpactics
-//functional child props
-import React from 'react'
+// //functional child props
+// import React from 'react'
 
-const Allpactics = (props) => {
-    return (
-        <div>
-            hello {props.name} ,{props.children},{props.age}
-        </div>
-    )
-}
+// const Allpactics = (props) => {
+//     return (
+//         <div>
+//             hello {props.name} ,{props.children},{props.age}
+//         </div>
+//     )
+// }
 
-export default Allpactics
+// export default Allpactics
+// //class base child props 
+// import React, { Component } from 'react'
+
+// export class Allpactics extends Component {
+//     render() {
+//         return (
+//             <div>
+//                 hello {this.props.name},{this.props.children}{this.props.age}
+//             </div>
+//         )
+//     }
+// }
+
+// export default Allpactics
 
