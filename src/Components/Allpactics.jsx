@@ -793,37 +793,99 @@
 
 // export default Allpactics
 //use map function in class components
+// import React, { Component } from 'react'
+
+// export class Allpactics extends Component {
+//     constructor(props) {
+//         super(props)
+       
+//         this.state = {
+//             list:['mahmud','hossain','nannu']
+//         }
+//           this.lol=this.lol.bind(this)
+//     }
+//     lol=()=>{
+//         this.setState({
+//             list:['apple','banaana','mango']
+//         })
+//     }
+    
+//     render() {
+//         return (
+//             <div>
+//             <ul>
+//               {this.state.list.map((item) => <li>{item}</li>)}
+//             </ul>
+//             <button onClick={()=>this.lol()}>click to list change</button>
+//           </div>
+//         )
+//     }
+// }
+
+// export default Allpactics
+// import React, { Component } from 'react'
+
+// export class Allpactics extends Component {
+//     constructor(props) {
+//         super(props)
+    
+//         this.state = {
+//              arr:[1,2,3,4,5,6,7,8,9]
+//         }
+//     }
+    
+//     render() {
+//         return (
+//             <div>
+//                 <ul>
+//                 {this.state.arr.map((item)=><li>{item}</li>)}
+//                 </ul>
+//             </div>
+//         )
+//     }
+// }
+
+// export default Allpactics
+
 import React, { Component } from 'react'
 
 export class Allpactics extends Component {
     constructor(props) {
         super(props)
-       
+    
         this.state = {
-            list:['mahmud','hossain','nannu']
+             arr:[1,2,3,4,5,6]
         }
-          this.lol=this.lol.bind(this)
+        this.lol=this.lol.bind(this)
+        this.tol=this.tol.bind(this)
     }
     lol=()=>{
         this.setState({
-            list:['apple','banaana','mango']
+            arr:[8,9,10,11,12,13]
         })
+
+    tol=()=>{
+        this.setState({
+            arr:lol.reduce((total,item)=>{total+item})
+        })
+    }
+        
     }
     
     render() {
         return (
             <div>
-            <ul>
-              {this.state.list.map((item) => <li>{item}</li>)}
-            </ul>
-            <button onClick={()=>this.lol()}>click to list change</button>
-          </div>
+                {this.state.arr}
+                <button onClick={()=>setTimeout(()=>{this.lol()},3000)}>click </button>
+                {this.state.arr.map((item)=><li>{item}</li>)}
+                <button onClick={()=>setTimeout(()=>{this.tol()},5000)}>sum</button>
+                {this.state.arr}
+            </div>
         )
     }
 }
 
 export default Allpactics
-
 
 
 // //state,setState with button
