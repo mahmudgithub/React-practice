@@ -1001,21 +1001,43 @@
 // }
 
 // export default Allpactics
-//useState with array
-import React,{useState} from 'react'
+// //useState with array
+// import React,{useState} from 'react'
 
-const Allpactics = () => {
-    const [arr, setarr] = useState([1,2,3,4,5])
-    const lol=()=>{
-        setarr([6,7,8,9,10])
-    }
-    return (
-        <div>
-            <ul>{arr.map((item,index)=>{return <li key={index}>{item}</li>})}</ul>
-            <br/>
-            <button onClick={()=>lol()}>onClick</button>
-        </div>
-    )
-}
+// const Allpactics = () => {
+//     const [arr, setarr] = useState([1,2,3,4,5])
+//     const lol=()=>{
+//         setarr([6,7,8,9,10])
+//     }
+//     return (
+//         <div>
+//             <ul>{arr.map((item,index)=>{return <li key={index}>{item}</li>})}</ul>
+//             <br/>
+//             <button onClick={()=>lol()}>onClick</button>
+//         </div>
+//     )
+// }
 
-export default Allpactics
+// export default Allpactics
+//application of useEffect 
+// //using useEffect count title counter
+// import React,{useState,useEffect} from 'react'
+
+// const Allpactics = () => {
+//     const [count, setcount] = useState(0)
+//     const lol=()=>{
+//         setcount(count+1)
+//     }
+//     useEffect(()=>{
+//         document.title=`count: ${count}`
+//     })
+//     return (
+//         <div>
+//             {count}
+//             <br/>
+//             <button onClick={()=>lol()}>click to incrise</button>
+//         </div>
+//     )
+// }
+
+// export default Allpactics
