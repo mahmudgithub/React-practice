@@ -1041,3 +1041,31 @@
 // }
 
 // export default Allpactics
+
+// //run useEffec conditionally
+// import React,{useState,useEffect} from 'react'
+
+// const Allpactics = () => {
+//     const [count, setcount] = useState(0)
+//     const [name, setname] = useState('')
+//    const lol=()=>{
+//         setcount(count+1)
+//     }
+//     useEffect(()=>{
+//         console.log(`count`);
+//         document.title=`count: ${count}`
+//     },[count])
+    
+//     return (
+//         <div>
+//             {count}
+//             <br/>
+//             <button onClick={()=>lol()}>click to count</button><br/>
+//             {name}
+//             <br/>
+//             <input value={name} onChange={(e)=>setname(e.target.value)}/>
+//         </div>
+//     )
+// }
+
+// export default Allpactics
