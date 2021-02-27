@@ -1102,3 +1102,116 @@
 // }
 
 // export default Allpactics
+// //using useEffect face data
+// import React,{useState,useEffect} from 'react'
+// import Axios from 'axios'
+
+// const Allpactics = () => {
+//     const [post, setpost] = useState([])
+//     useEffect(()=>{
+//         Axios.get('https://jsonplaceholder.typicode.com/users')
+//         .then(res=>{
+//             console.log(res.data);
+//             setpost(res.data)
+//     })
+//     .catch((err)=>{
+//         console.log(err.message);
+//     })
+//     },[])
+//     return (
+//         <div>
+//             <ul>
+//                 {post.map((item,id)=>{return <li key={id}>{item.name}</li>})}
+//                 {post.map((item,id)=>{return <li key={id}>{item.address.geo.lng}</li>})}
+//             </ul>
+            
+//         </div>
+//     )
+// }
+
+// export default Allpactics
+
+// import React,{useState,useEffect} from 'react'
+// import Axios from 'axios'
+
+// const Allpactics = () => {
+//     const [post, setpost] = useState([])
+//     useEffect(()=>{
+//         Axios.get('https://jsonplaceholder.typicode.com/users')
+//         .then((res)=>{console.log(res.data);setpost(res.data)})
+//         .catch((err)=>{console.log(err.message);})
+//     },[])
+   
+//     return (
+//         <div>
+//             <ul>
+//                 {post.map((item,id)=>{return <li key={id}>{item.name}</li>})}
+//             </ul>
+//         </div>
+//     )
+// }
+
+// export default Allpactics
+
+// import React,{useState,useEffect} from 'react'
+// import Axios from 'axios'
+
+// const Allpactics = () => {
+//     useEffect(()=>{
+//         Axios.get('https://jsonplaceholder.typicode.com/users')
+//         .then((res)=>{console.log(res.data);})
+//         .catch((err)=>{console.log(err.message);})
+//     })
+//     return (
+//         <div>
+//             {}
+//         </div>
+//     )
+// }
+
+// export default Allpactics
+// import React,{useState,useEffect} from 'react'
+// import Axios from 'axios'
+
+// const Allpactics = () => {
+//     const [info, setinfo] = useState([])
+//     useEffect(()=>{setTimeout(()=>{
+//         Axios.get('https://jsonplaceholder.typicode.com/users')
+//         .then((res)=>{console.log(res.data);setinfo(res.data)}).catch((err)=>{console.log(err.message);})
+//     },5000)},[])
+//     return (
+//         <div>
+//             <ul>
+//                 {
+//                     info.map((item,id)=>{return <li key={id}>{item.name}</li>})
+//                 }
+//             </ul>
+//         </div>
+//     )
+// }
+
+// export default Allpactics
+
+// import React,{useState,useEffect} from 'react'
+// import Axios from 'axios'
+
+// const Allpactics = () => {
+//     const [info, setinfo] = useState([])
+//     useEffect(()=>{
+//         Axios.get('https://jsonplaceholder.typicode.com/users')
+//         .then((response)=>{console.log(response.data);setinfo(response.data)})
+//         .catch((error)=>{console.log(error.message);})
+//     },[])
+//     return (
+//         <div>
+//             <ul>
+//                 {
+//                     info.map((item,id)=>{ return <li key={id}>{item.name}</li>})
+//                 }
+//             </ul>
+//         </div>
+//     )
+// }
+
+// export default Allpactics
+
