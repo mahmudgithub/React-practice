@@ -1069,3 +1069,36 @@
 // }
 
 // export default Allpactics
+
+// import React,{useState,useEffect} from 'react'
+
+// const Allpactics = () => {
+//     const [count, setcount] = useState(0)
+//     const [name, setname] = useState('')
+//     return (
+//         <div>
+//             {count}<br/>
+//             <button onClick={()=>setcount(count+1)}>click to count</button>
+//             <br/>
+//             {name}<br/>
+//             <input value={name} onChange={(e)=>setname(e.target.value)} type="text"/>
+//         </div>
+//     )
+// }
+
+// export default Allpactics
+// //using usestate hide and show data
+// import React,{useState,useEffect} from 'react'
+
+// const Allpactics = () => {
+//     const [name, setname] = useState('mahmud')
+//     const [show, setshow] = useState(true)
+//     return (
+//         <div>
+//             {show && name}<br/>
+//             <button onClick={()=>setshow(!show)}>click</button>
+//         </div>
+//     )
+// }
+
+// export default Allpactics
