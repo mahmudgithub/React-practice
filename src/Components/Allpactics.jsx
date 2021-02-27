@@ -957,3 +957,65 @@
 // }
 
 // export default Allpactics
+// //object in hook
+// import React ,{useState}from 'react'
+
+// const Allpactics = () => {
+//     const [my, setmy] = useState({
+//         name:'',
+//         age:''
+//     })
+//     const lol=()=>{
+//         setmy({
+//             name:my.name='hossain',
+//             age:my.age=26
+
+//         })
+//     }
+//     return (
+//         <div>
+//             {my.name} and {my.age}
+//             <br/>
+//             <button onClick={()=>lol()}>click</button>
+//         </div>
+//     )
+// }
+
+// export default Allpactics
+// //onChange method in hook
+// import React,{useState} from 'react'
+
+// const Allpactics = () => {
+//     const [obj, setobj] = useState({
+//         name:'',
+//         age:''
+//     })
+//     return (
+//         <div>
+//             name:{obj.name} and age:f{obj.age}
+//             <br/>
+//             <input value={obj.name} onChange={(e)=>setobj({...obj,name:e.target.value})}/>
+//             <input value={obj.age} onChange={(e)=>setobj({...obj,age:e.target.value})}/>
+//         </div>
+//     )
+// }
+
+// export default Allpactics
+//useState with array
+import React,{useState} from 'react'
+
+const Allpactics = () => {
+    const [arr, setarr] = useState([1,2,3,4,5])
+    const lol=()=>{
+        setarr([6,7,8,9,10])
+    }
+    return (
+        <div>
+            <ul>{arr.map((item,index)=>{return <li key={index}>{item}</li>})}</ul>
+            <br/>
+            <button onClick={()=>lol()}>onClick</button>
+        </div>
+    )
+}
+
+export default Allpactics
