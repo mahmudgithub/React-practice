@@ -1214,4 +1214,15 @@
 // }
 
 // export default Allpactics
+import React,{useState,useEffect} from 'react'
 
+const Allpactics = () => {
+    const [count, setcount] = useState(0)
+    return (
+        <div>
+           value: {count}<br/>
+           <button onClick={()=>{setcount(count+1)}}>click to change</button>
+        </div>
+    )
+}
+export default Allpactics
