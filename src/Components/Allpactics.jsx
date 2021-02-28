@@ -1214,15 +1214,39 @@
 // }
 
 // export default Allpactics
-import React,{useState,useEffect} from 'react'
+// import React,{useState,useEffect} from 'react'
 
-const Allpactics = () => {
-    const [count, setcount] = useState(0)
-    return (
-        <div>
-           value: {count}<br/>
-           <button onClick={()=>{setcount(count+1)}}>click to change</button>
-        </div>
-    )
-}
-export default Allpactics
+// const Allpactics = () => {
+//     const [count, setcount] = useState(0)
+//     return (
+//         <div>
+//            value: {count}<br/>
+//            <button onClick={()=>{setcount(count+1)}}>click to change</button>
+//         </div>
+//     )
+// }
+// export default Allpactics
+
+//applicatio of useEffect
+// import React ,{useState,useEffect}from 'react'
+
+// const Allpactics = () => {
+//     const [name, setname] = useState('')
+//     const [count, setcount] = useState(0)
+//     useEffect(()=>{
+//         console.log('run');
+//         document.title=`title:${name}   and count:${count}` ;
+//         // document.title=count:${count}
+//     },[count])
+//     return (
+//         <div>
+//             count:{count}<br/>
+//             <button onClick={()=>{setcount(count+1)}}>click to incrise</button><br/>
+//             {name}<br/>
+//             <input value={name} onChange={(e)=>{setname(e.target.value)}}/>
+//         </div>
+//     )
+// }
+
+// export default Allpactics
+
