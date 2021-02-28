@@ -1269,3 +1269,21 @@
 // }
 
 // export default Allpactics
+// //useState with array
+// import React,{useState} from 'react'
+
+// const Allpactics = () => {
+//     const [list, setlist] = useState([1,2,3,4,5,6,7,8,9]) 
+//     return (
+//         <div>
+//             <button className='btn btn-primary'onClick={()=>{setlist(list.map((item)=>{return item*2}))}}>click to change value </button>
+//             <ul>
+//             {
+//                 list.map((item)=>{return <li>{item}</li>})
+//             }
+//             </ul>
+//         </div>
+//     )
+// }
+
+// export default Allpactics
