@@ -1249,4 +1249,23 @@
 // }
 
 // export default Allpactics
+// //useState with object
+// import React,{useState} from 'react'
 
+// const Allpactics = () => {
+//     const [info, setinfo] = useState({
+//         name:'',
+//         age:''
+//     }
+//     )
+//     return (
+//         <div>
+//             <input value={info.name} onChange={(e)=>{setinfo({...info,name: e.target.value})}}/>
+//             <input value={info.age} onChange={(e)=>{setinfo({...info,age: e.target.value})}}/>
+//             {info.name}<br/>
+//             {info.age}
+//         </div>
+//     )
+// }
+
+// export default Allpactics
