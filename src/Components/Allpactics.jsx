@@ -1320,5 +1320,30 @@
 //         </div>
 //     )
 // }
+// export default Allpactics
+// import React,{useState,useEffect} from 'react'
+// import Axios from 'axios'
+
+// const Allpactics = () => {
+//     const [state, setstate] = useState([])
+//     useEffect(()=>{
+//         Axios({
+//             method:'get',
+//             url:'https://jsonplaceholder.typicode.com/posts'
+//         })
+//             .then((res)=>{setstate(res.data)})
+//             .catch((err)=>{setstate(err.message)})
+        
+//     },[])
+//     return (
+//         <div>
+//             <ul>
+//                 {
+//                     state.map((item,index)=>{return <li key={index}>{item.title}</li>})
+//                 }
+//             </ul>
+//         </div>
+//     )
+// }
 
 // export default Allpactics
