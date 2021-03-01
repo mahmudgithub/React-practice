@@ -1287,3 +1287,38 @@
 // }
 
 // export default Allpactics
+
+// //data featch by use Effect and use State
+// import React,{useState,useEffect } from 'react'
+// import Axios from 'axios'
+
+// const Allpactics = () => {
+//     const [state, setstate] = useState([])
+    
+
+//    useEffect(()=>{
+//     //    Axios.get('https://jsonplaceholder.typicode.com/posts')
+//     //    .then((res)=>{
+//     //        console.log(res.data);setstate(res.data)
+//     //    })
+//     //    .catch((err)=>{console.log(err.message);})
+// Axios({
+//     method:'get',
+//     url:'https://jsonplaceholder.typicode.com/posts'
+// })
+// .then((res)=>{setstate(res.data)})
+// .catch((err)=>{setstate(err.message)})
+
+//    },[])
+//     return (
+//         <div>
+//             <ol>
+//                 {
+//                     state.map((item,id)=>{ return (<li key={id}>{item.title}</li>)})
+//                 }
+//             </ol>
+//         </div>
+//     )
+// }
+
+// export default Allpactics
