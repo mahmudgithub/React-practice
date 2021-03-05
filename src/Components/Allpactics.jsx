@@ -1613,3 +1613,26 @@
 // }
 
 // export default Allpactics
+
+// //example of cusom huck
+// import React,{useState,useEffect} from 'react'
+
+// const Allpactics = () => {
+//     const [count, setcount] = useState(0)
+//     const increment=()=>{
+//         setcount(count+1)
+//     }
+//     const decrise=()=>{
+//         setcount(count-1)
+//     }
+//     return (
+//         <div>
+//             count :{count}<br/>
+//             <button className='btn btn-primary' onClick={()=>increment()}>incrise value</button>
+//             <button className='btn btn-dark' onClick={()=>decrise()}>decrise value</button>
+
+//         </div>
+//     )
+// }
+
+// export default Allpactics
