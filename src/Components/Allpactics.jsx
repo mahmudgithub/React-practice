@@ -1346,4 +1346,157 @@
 //     )
 // }
 // export default Allpactics
-//
+//today pactics
+// //props pactics
+// import React from 'react'
+
+// const Allpactics = (props) => {
+//     return (
+//         <div>
+//             hello{props.name}
+//             where are your city{props}
+//         </div>
+//     )
+// }
+
+// export default Allpactics
+
+//pactics use state
+// import React,{useState} from 'react'
+
+// const Allpactics = () => {
+//     const [state, setstate] = useState('mahmud')
+
+//     return (
+//         <div>
+//             i am {state}
+//             <br/>
+//             <button onClick={()=>setstate('hossain')}>click to change</button>
+//         </div>
+//     )
+// }
+
+// export default Allpactics
+//another way to use usestate
+// import React,{useState} from 'react'
+
+// const Allpactics = () => {
+//     const [state, setstate] = useState('mahmud')
+//     const lol=()=>{
+//         setstate('hossain')
+//     }
+//     return (
+//         <div>
+//             {state}<br/>
+//             <button onClick={()=>{lol()}}>click to change</button>
+//         </div>
+//     )
+// }
+
+// export default Allpactics
+//use onchange button
+// import React,{useState} from 'react'
+
+// const Allpactics = () => {
+//     const [state, setstate] = useState({
+//         name:'',
+//         city:''
+//     })
+//     return (
+//         <div>
+//             {state.name} 
+//             <br/>
+//             <input value={state.name} onChange={(e)=>{setstate({...state,name:e.target.value})}}type="text"/>
+//             <input value={state.city} onChange={(e)=>{setstate({...state,city:e.target.value})}} />
+//             {state.city}
+           
+//         </div>
+//     )
+// }
+
+// export default Allpactics
+
+
+// //use map,reduce,filter method on usestate
+// import React,{useState} from 'react'
+
+// const Allpactics = () => {
+//     const [info, setinfo] = useState([1,2,3,4,5])
+//     return (
+//         <div>
+//             <ul>
+//                 {
+//                     info.map((item)=>{return <li>{item}</li>})
+//                 }
+//             </ul>
+//             <ul>
+//                 {
+//                     info.reduce((total,item)=>{ return  total+item})
+//                 }
+//             </ul>
+//             <ul>
+//                 {
+//                     info.filter((item,index)=>{return item%2===0})
+//                 }
+//             </ul>
+//         </div>
+//     )
+// }
+
+// export default Allpactics
+
+
+// //usestate and useEffect pactics
+// import React,{useState,useEffect} from 'react'
+
+// const Allpactics = () => {
+//     const [info, setinfo] = useState({
+//         name:'mahmud'
+//     })
+//     useEffect(()=>{
+//         console.log('run');
+//         setTimeout(() => {
+//             setinfo({name:'hossain'})
+            
+//         }, 5000);
+//     },[])
+
+//     return (
+//         <div>
+//             {info.name}<br/>
+//             <button onClick={()=>{setinfo({name:'welcome'})}}>click to change</button>
+//         </div>
+//     )
+// }
+
+// export default Allpactics
+
+//get data from server
+// import React,{useState,useEffect} from 'react'
+// import Axios from 'axios'
+
+// const Allpactics = () => {
+//     const [state, setstate] = useState([])
+//     useEffect(()=>{
+//         setTimeout(() => {
+//             Axios({
+//                 method:'get',
+//                 url:'https://jsonplaceholder.typicode.com/posts'
+//             })
+//             .then((res)=>{console.log(res.data); setstate(res.data)})
+
+
+//         }, 3000);
+//     },[])
+//     return (
+//         <div>
+//             <ul>
+//                 {
+//                     state.map((item)=>{return <li>{item.title}</li>})
+//                 }
+//             </ul>
+//         </div>
+//     )
+// }
+
+// export default Allpactics

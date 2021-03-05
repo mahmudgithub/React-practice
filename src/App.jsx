@@ -72,7 +72,7 @@ return (
 
 
 
-<Allpactics/>
+<Allpactics name='mahmud' city='rajshahi'> i am child of props</Allpactics>
 </div> 
   )
 }
