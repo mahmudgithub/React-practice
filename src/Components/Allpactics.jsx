@@ -1500,3 +1500,116 @@
 // }
 
 // export default Allpactics
+
+// import axios from 'axios'
+// import React,{useState,useEffect} from 'react'
+// import Axios from 'axios'
+
+// const Allpactics = () => {
+//     const [state, setstate] = useState([])
+//     const [info, setinfo] = useState([])
+//     useEffect(()=>{
+//         Axios({
+//             method:'GET',
+//             url:'https://jsonplaceholder.typicode.com/posts'
+//         }).then((res)=>{console.log(res.data); setstate(res.data)})
+//         .catch((err)=>{console.log(err.message);})
+
+//     },[]);
+//     useEffect(() => {
+//         setTimeout(()=>{
+//             const lol = async () => {
+//                 await Axios({
+//                     method: "get",
+//                     url: `https://jsonplaceholder.typicode.com/photos`
+//                 }).then(res => {
+//                     // console.log(response.data);
+//                     setinfo(res.data)
+//                 })
+//             }
+//             lol()
+//         },5000)
+
+//     }, [])
+//     return (
+//         <div>
+//             <ul>
+//                 {
+//                     state.map((item,index)=>{return <li key={index}>{item.title}</li>})
+//                 }
+//             </ul>
+//             <ul>
+//                 {
+//                     info.map((item,index)=>{return <li key={index}>{item.thumbnailUrl}</li>})
+//                 }
+//             </ul>
+//         </div>
+//     )
+// }
+
+// export default Allpactics
+// //use usestate useEffect,map method, asychonu function and more in one example
+// import React,{useState,useEffect} from 'react'
+// import Axios from 'axios'
+
+// const Allpactics = () => {
+//     const [info, setinfo] = useState([])
+//     useEffect(()=>{
+//         setTimeout(() => {
+//             const lol=async()=>{
+                
+//                await Axios({
+//                    method:'get',
+//                    url:'https://jsonplaceholder.typicode.com/photos'
+//                }).then((res)=>{console.log(res.data);setinfo(res.data)})
+//                .catch((err)=>{setinfo(err.message)})
+//             }
+//             lol()
+//         }, 5000);
+//     })
+//     return (
+//         <div>
+//             <ul>
+//                 {
+//                     info.map((item)=>{return <li>{item.title}</li>})
+//                 }
+//             </ul>
+//         </div>
+//     )
+// }
+
+// export default Allpactics
+
+
+
+// import React,{useState,useEffect} from 'react'
+// import Axios from 'axios'
+
+// const Allpactics = () => {
+//     const [info, setinfo] = useState([])
+//     useEffect(()=>{
+//         setTimeout(() => {
+//             const lol=async ()=>{
+//                 await Axios({
+//                 method:'get',
+//                 url:'https://jsonplaceholder.typicode.com/users'
+//                 })
+//                 .then((res)=>{console.log(res.data);setinfo(res.data)})
+//                 .catch((err)=>{console.log(err.message);})
+//             }
+//             lol()
+            
+//         }, 5000);
+//     },[])
+//     return (
+//         <div>
+//             <ul>
+//             {
+//                 info.map((item,index)=>{return <li key={index}>{item.username}</li>})
+//             }
+//             </ul>
+//         </div>
+//     )
+// }
+
+// export default Allpactics
