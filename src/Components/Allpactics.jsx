@@ -1329,9 +1329,9 @@
 //     useEffect(()=>{
 //         Axios({
 //             method:'get',
-//             url:'https://jsonplaceholder.typicode.com/posts'
+//             url:'http://192.168.43.125/'
 //         })
-//             .then((res)=>{setstate(res.data)})
+//             .then((res)=>{console.log(res.data); setstate(res.data)})
 //             .catch((err)=>{setstate(err.message)})
         
 //     },[])
@@ -1345,5 +1345,5 @@
 //         </div>
 //     )
 // }
-
 // export default Allpactics
+//
