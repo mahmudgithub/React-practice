@@ -23,3 +23,28 @@
 // }
 
 // export default Son
+
+
+// const Son = () => {
+//     return (
+//         <div>
+//             <Sonchild/>
+//         </div>
+//     )
+// }
+
+// export default Son
+
+
+
+// const Son = () => {
+//     return (
+//         <div>
+//             <Sonchild/>
+//         </div>
+//     )
+// }
+
+// export default Son
+
+

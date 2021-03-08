@@ -1,3 +1,6 @@
+
+
+
 // import React from 'react'
 // import Son from './Son'
 
@@ -19,6 +22,35 @@
 //     return (
 //         <div>
 //             <Son one={props.name}/>
+//         </div>
+//     )
+// }
+
+// export default Father
+
+
+
+// import React from 'react'
+// import Son from './Son';
+// const Father = () => {
+//     return (
+//         <div>
+//             <Son/>
+            
+//         </div>
+//     )
+// }
+
+// export default Father
+
+
+// import React from 'react'
+// import Son from './Son'
+
+// const Father = () => {
+//     return (
+//         <div>
+//             <Son/>
 //         </div>
 //     )
 // }
