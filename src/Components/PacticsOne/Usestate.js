@@ -1,14 +1,14 @@
-import React from 'react'
-import { useState } from 'react'
+// import React from 'react'
+// import { useState } from 'react'
 
-const Usestate = () => {
-    const [one, setone] = useState('mahmud')
-    return (
-        <div>
-            {one}
-            <button onClick={()=>{setone('hossain')}}>click to change</button>
-        </div>
-    )
-}
+// const Usestate = () => {
+//     const [one, setone] = useState('mahmud')
+//     return (
+//         <div>
+//             {one}
+//             <button onClick={()=>{setone('hossain')}}>click to change</button>
+//         </div>
+//     )
+// }
 
-export default Usestate
+// export default Usestate

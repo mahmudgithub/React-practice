@@ -6,8 +6,8 @@ import Usestate from '../PacticsOne/Usestate'
 const Connector = () => {
     return (
         <div>
-            <Usestate/>
-            <Useeffect/>
+            {/* <Usestate/>
+            <Useeffect/> */}
             <Fetchdata/>
         </div>
     )
