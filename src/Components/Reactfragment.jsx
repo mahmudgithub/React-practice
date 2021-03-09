@@ -1,20 +1,20 @@
-import React from 'react'
+// import React from 'react'
 
-export const Reactfragment = () => {
+// export const Reactfragment = () => {
     
-    return (
-        <div>
+//     return (
+//         <div>
             
-        <>
-        <h1>i am reactfragment </h1>
-        </>
+//         <>
+//         <h1>i am reactfragment </h1>
+//         </>
 
-        <>
-        <h2>i am also rcat fragment</h2>
-        </>
+//         <>
+//         <h2>i am also rcat fragment</h2>
+//         </>
 
-        </div>
+//         </div>
       
-    )
-}
-export default Reactfragment;
+//     )
+// }
+// export default Reactfragment;

@@ -1638,3 +1638,17 @@
 // export default Allpactics
 
 
+
+//today react pactics 9/3/2021
+//pactics props 
+import React from 'react'
+
+const Allpactics = (props) => {
+    return (
+        <div>
+            {props.name}
+        </div>
+    )
+}
+
+export default Allpactics
