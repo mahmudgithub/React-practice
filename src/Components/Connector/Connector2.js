@@ -71,7 +71,7 @@
 // export default Connector2
 
 
-// //multipel conext data send
+// // //multipel conext data send
 // import React from 'react'
 // import Father from '../PacticsTwo/Father'
 // export const Mycontext=React.createContext();

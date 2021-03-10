@@ -144,3 +144,23 @@
 // }
 
 // export default Puti
+
+
+// ///using useContext hook easy/shortcut context comsumer complex part
+// import React, { useContext } from 'react'
+// import { Hercontext, Hiscontext, Mycontext, Yourcontext } from '../Connector/Connector2';
+
+
+// const Puti = () => {
+// const one=useContext(Mycontext)
+// const two=useContext(Yourcontext)
+// const three=useContext(Hiscontext)
+// const four=useContext(Hercontext)
+//     return (
+//         <div>
+//             <h1>{one} and {two} and {three} and {four}</h1>
+//         </div>
+//     )
+// }
+
+// export default Puti
