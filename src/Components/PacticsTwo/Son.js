@@ -1,9 +1,11 @@
 import React from 'react'
+import Nati from './Nati'
 
 const Son = () => {
     return (
         <div>
-            son
+            <h1>hello  i am son</h1>
+            <Nati/>
         </div>
     )
 }

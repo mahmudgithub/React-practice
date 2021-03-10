@@ -3,7 +3,7 @@ import React from 'react'
 const Puti = () => {
     return (
         <div>
-            puti
+        <h1>Hello i am puti</h1>
         </div>
     )
 }

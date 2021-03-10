@@ -1,9 +1,11 @@
 import React from 'react'
+import Son from './Son'
 
 const Father = () => {
     return (
         <div>
-            father
+            <h1>hello i am father</h1>
+            <Son/>
         </div>
     )
 }

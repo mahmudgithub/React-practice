@@ -1,9 +1,11 @@
 import React from 'react'
+import Puti from './Puti'
 
 const Nati = () => {
     return (
         <div>
-            nati
+            <h1>hello iam nati</h1>
+            <Puti/>
         </div>
     )
 }
