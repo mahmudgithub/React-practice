@@ -28,7 +28,37 @@
 // export default Nati
 
 
-///another way to send contex value
+// ///another way to send contex value
+// import React from 'react'
+// import Puti from './Puti'
+
+// const Nati = () => {
+//     return (
+//         <div>
+//             <Puti/>
+//         </div>
+//     )
+// }
+
+// export default Nati
+
+
+// ///another way to send contxt data
+// import React from 'react'
+// import Puti from './Puti'
+
+// const Nati = () => {
+//     return (
+//         <div>
+//             <Puti/>
+//         </div>
+//     )
+// }
+
+// export default Nati
+
+
+///multiple context data send 
 import React from 'react'
 import Puti from './Puti'
 
