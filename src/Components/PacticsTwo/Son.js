@@ -58,16 +58,16 @@
 // export default Son
 
 
-///multiple context data send 
-import React from 'react'
-import Nati from './Nati'
+// ///multiple context data send 
+// import React from 'react'
+// import Nati from './Nati'
 
-const Son = () => {
-    return (
-        <div>
-            <Nati/>
-        </div>
-    )
-}
+// const Son = () => {
+//     return (
+//         <div>
+//             <Nati/>
+//         </div>
+//     )
+// }
 
-export default Son
+// export default Son

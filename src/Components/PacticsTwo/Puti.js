@@ -106,41 +106,41 @@
 // export default Puti
 
 
-//double multi context data send
-import React from 'react'
-import { Hercontext, Hiscontext, Mycontext, Yourcontext } from '../Connector/Connector2'
+// //double multi context data send
+// import React from 'react'
+// import { Hercontext, Hiscontext, Mycontext, Yourcontext } from '../Connector/Connector2'
 
-const Puti = () => {
-    return (
-        <div>
-            <Mycontext.Consumer>
-                {
-                    one=>{
-                        return <Yourcontext.Consumer>
-                            {
-                                two=>{
-                                    return <Hiscontext.Consumer>
-                                        {
-                                            three=>{
-                                                return <Hercontext.Consumer>
-                                                    {
-                                                        four=>{
-                                                        return<h1>{one} and {two} and {three} and {four}</h1>
+// const Puti = () => {
+//     return (
+//         <div>
+//             <Mycontext.Consumer>
+//                 {
+//                     one=>{
+//                         return <Yourcontext.Consumer>
+//                             {
+//                                 two=>{
+//                                     return <Hiscontext.Consumer>
+//                                         {
+//                                             three=>{
+//                                                 return <Hercontext.Consumer>
+//                                                     {
+//                                                         four=>{
+//                                                         return<h1>{one} and {two} and {three} and {four}</h1>
 
-                                                        }
-                                                    }
-                                                </Hercontext.Consumer>
-                                            }
-                                        }
-                                    </Hiscontext.Consumer>
-                                }
-                            }
-                        </Yourcontext.Consumer>
-                    }
-                }
-            </Mycontext.Consumer>
-        </div>
-    )
-}
+//                                                         }
+//                                                     }
+//                                                 </Hercontext.Consumer>
+//                                             }
+//                                         }
+//                                     </Hiscontext.Consumer>
+//                                 }
+//                             }
+//                         </Yourcontext.Consumer>
+//                     }
+//                 }
+//             </Mycontext.Consumer>
+//         </div>
+//     )
+// }
 
-export default Puti
+// export default Puti

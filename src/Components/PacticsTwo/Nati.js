@@ -58,16 +58,16 @@
 // export default Nati
 
 
-///multiple context data send 
-import React from 'react'
-import Puti from './Puti'
+// ///multiple context data send 
+// import React from 'react'
+// import Puti from './Puti'
 
-const Nati = () => {
-    return (
-        <div>
-            <Puti/>
-        </div>
-    )
-}
+// const Nati = () => {
+//     return (
+//         <div>
+//             <Puti/>
+//         </div>
+//     )
+// }
 
-export default Nati
+// export default Nati
