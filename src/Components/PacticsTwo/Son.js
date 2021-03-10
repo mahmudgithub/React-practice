@@ -1,11 +1,11 @@
 import React from 'react'
 import Nati from './Nati'
 
-const Son = () => {
+const Son = (props) => {
     return (
         <div>
             <h1>hello  i am son</h1>
-            <Nati/>
+            <Nati two={props.one}/>
         </div>
     )
 }

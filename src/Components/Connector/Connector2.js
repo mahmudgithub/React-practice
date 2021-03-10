@@ -4,7 +4,7 @@ import Father from '../PacticsTwo/Father'
 const Connector2 = () => {
     return (
         <div>
-            <Father/>
+            <Father name='mahmud'/>
         </div>
     )
 }

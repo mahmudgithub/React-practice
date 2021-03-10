@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Puti = () => {
+const Puti = (props) => {
     return (
         <div>
-        <h1>Hello i am puti</h1>
+        <h1>Hello i am puti,my name is {props.three}</h1> 
         </div>
     )
 }
