@@ -11,23 +11,46 @@
 // export default Puti
 
 ///application of context data
+// import React from 'react'
+// import { Reciver } from './Context'
+
+// const Puti = () => {
+//     return (
+//         <div>
+//             <h1>
+//             <Reciver >
+//                 {
+//                     msg=>{
+//                         return msg;
+//                     }
+//                 }
+
+//             </Reciver>
+//             </h1>
+
+//         </div>
+//     )
+// }
+
+// export default Puti
+
+
+///another way to send context value 
 import React from 'react'
-import { Reciver } from './Context'
+import { Mycontext } from '../Connector/Connector2'
+
 
 const Puti = () => {
     return (
         <div>
-            <h1>
-            <Reciver >
+            <Mycontext.Consumer>
                 {
                     msg=>{
                         return msg;
                     }
                 }
-
-            </Reciver>
-            </h1>
-
+            </Mycontext.Consumer>
+            
         </div>
     )
 }

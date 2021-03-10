@@ -14,6 +14,21 @@
 
 
 ///////application of context data
+// import React from 'react'
+// import Nati from './Nati'
+
+// const Son = () => {
+//     return (
+//         <div>
+//             <Nati/>
+//         </div>
+//     )
+// }
+
+// export default Son
+
+
+///another way to send context value 
 import React from 'react'
 import Nati from './Nati'
 

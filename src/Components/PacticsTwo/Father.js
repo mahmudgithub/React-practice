@@ -14,6 +14,22 @@
 
 
 //////application of context data
+// import React from 'react'
+// import Son from './Son'
+
+// const Father = () => {
+//     return (
+//         <div>
+//             <Son/>
+//         </div>
+//     )
+// }
+
+// export default Father
+
+
+
+///another way to send context value
 import React from 'react'
 import Son from './Son'
 
