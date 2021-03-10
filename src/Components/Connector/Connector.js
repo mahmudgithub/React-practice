@@ -10,9 +10,12 @@ const Connector = () => {
             {/* <Usestate/>
             <Useeffect/> */}
             {/* <Fetchdata/> */}
-            <Async/>
+            {/* <Async/> */}
         </div>
     )
 }
 
 export default Connector
+
+
+
