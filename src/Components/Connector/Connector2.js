@@ -148,13 +148,15 @@
 ///today 11.3.2021 
 import React from 'react'
 import StateOne from '../PacticsThree/StateOne'
+import StateThree from '../PacticsThree/StateThree'
 import StateTwo from '../PacticsThree/StateTwo'
 
 const Connector2 = () => {
     return (
         <div>
             {/* <StateOne/> */}
-            <StateTwo/>
+            {/* <StateTwo/> */}
+            <StateThree/>
         </div>
     )
 }
