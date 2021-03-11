@@ -72,3 +72,18 @@
 // }
 
 // export default Father
+
+// //again pactics
+// import React from 'react'
+// import { propTypes } from 'react-bootstrap/esm/Image'
+// import Son from './Son'
+
+// const Father = () => {
+//     return (
+//         <div>
+//             <Son/>
+//         </div>
+//     )
+// }
+
+// export default Father

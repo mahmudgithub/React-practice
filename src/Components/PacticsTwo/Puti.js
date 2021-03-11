@@ -164,3 +164,43 @@
 // }
 
 // export default Puti
+
+//again pactics
+// import React from 'react'
+// import { propTypes } from 'react-bootstrap/esm/Image'
+// import {  Recive } from './Context'
+
+// const Puti = () => {
+//     return (
+//         <div>
+//             i am from puti, name is 
+//             < Recive>
+//                 {
+//                     msg=>{
+//                         return msg;
+//                     }
+//                 }
+//             </ Recive>
+//         </div>
+//     )
+// }
+
+// export default Puti
+
+// // import React from 'react'
+// import { Hecontext, Mycontext, Yourcontext} from '../Connector/Connector2'
+// import React, {useContext} from 'react'
+
+// const Puti = () => {
+//     const one = useContext(Mycontext)
+//     const two = useContext(Yourcontext)
+//     const three = useContext(Hecontext)
+//     return (
+//         <div>
+//            <h1>{one} ,{two},{three}</h1>
+           
+//         </div>
+//     )
+// }
+
+// export default Puti

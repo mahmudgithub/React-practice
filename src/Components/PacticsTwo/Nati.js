@@ -71,3 +71,19 @@
 // }
 
 // export default Nati
+
+
+// //again pactics
+// import React from 'react'
+// import Puti from './Puti'
+
+// const Nati = () => {
+//     return (
+//         <div>
+//             <Puti />
+//         </div>
+//     )
+// }
+
+// export default Nati
+

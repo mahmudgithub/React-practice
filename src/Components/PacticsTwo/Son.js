@@ -71,3 +71,18 @@
 // }
 
 // export default Son
+
+
+// //again pactics
+// import React from 'react'
+// import Nati from './Nati'
+
+// const Son = () => {
+//     return (
+//         <div>
+//             <Nati />
+//         </div>
+//     )
+// }
+
+// export default Son
