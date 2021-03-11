@@ -57,3 +57,37 @@
 // }
 
 // export default StateTwo
+
+
+//pactics multiple button handel by useReducer
+import React, { useReducer } from 'react'
+import { actions } from 'react-table';
+const initialState= 'Chose your name';
+
+const reducer=(state,action)=>{
+    switch(action){
+        case'one':
+        return state='mahmud';
+        case'two':
+        return state='hossain';
+        case'three':
+        return state='nannu';
+        case'four':
+        return state;
+    }
+}
+const StateTwo = () => {
+    const [name, dispatch] = useReducer(reducer, initialState)
+    return (
+        <div>
+           <span style={{color:'blue'}}>Names: </span><span style={{color:'red',border:'solid 3px' ,backgroundColor:'black'}}>{name}</span> <br/>
+            <button onClick={()=>{dispatch('one')}}>first name</button>
+            <button onClick={()=>{dispatch('two')}}>second name</button>
+            <button onClick={()=>{dispatch('three')}}>third name</button>
+            <button onClick={()=>{dispatch('four')}}>reset name</button>
+            
+        </div>
+    )
+}
+
+export default StateTwo
