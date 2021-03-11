@@ -145,20 +145,4 @@
 // export default Connector2
 
 
-///today 11.3.2021 
-import React from 'react'
-import StateOne from '../PacticsThree/StateOne'
-import StateThree from '../PacticsThree/StateThree'
-import StateTwo from '../PacticsThree/StateTwo'
 
-const Connector2 = () => {
-    return (
-        <div>
-            {/* <StateOne/> */}
-            {/* <StateTwo/> */}
-            <StateThree/>
-        </div>
-    )
-}
-
-export default Connector2

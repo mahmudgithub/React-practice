@@ -1,6 +1,6 @@
 // import React, { useState } from 'react'
 
-// const StateOne = () => {
+// const Usestate = () => {
 
 //     const [count, setcount] = useState(0)
 //     // const [decrise, setdecrise] = useState(0)
@@ -25,4 +25,4 @@
 //     )
 // }
 
-// export default StateOne
+// export default Usestate
