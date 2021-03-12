@@ -167,7 +167,6 @@
 
 //again pactics
 // import React from 'react'
-// import { propTypes } from 'react-bootstrap/esm/Image'
 // import {  Recive } from './Context'
 
 // const Puti = () => {

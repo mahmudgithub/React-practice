@@ -5,6 +5,7 @@ import UsereducerTwo from '../PacticsThree/UsereducerTwo'
 import UsereducerOne from '../PacticsThree/UsereducerOne'
 import UsereducerContexthook from '../PacticsThree/UsereducerContexthook'
 
+
 const Connector3 = () => {
     return (
         <div>
@@ -12,6 +13,7 @@ const Connector3 = () => {
             {/* <UsereducerOne/> */}
             {/* <UsereducerTwo/> */}
             <UsereducerContexthook/>
+            
 
         </div>
     )
