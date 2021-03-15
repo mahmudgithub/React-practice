@@ -5,10 +5,10 @@ import Style3 from '../PacticsFour/Style3'
 
 function Connector4() {
     return (
-        <div>
-            <Style/>
-            <Style2/>
-            {/* <Style3/>  */}
+        <div> 
+            {/* <Style/> */}
+            {/* <Style2/> */}
+            <Style3/> 
         </div>
     )
 }
