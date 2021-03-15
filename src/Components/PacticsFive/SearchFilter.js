@@ -24,6 +24,7 @@ const SearchFilter = () => {
   });
   return (
     <div>
+      <h1>i am filter one</h1>
       <input
         type="text"
         placeholder="search"
