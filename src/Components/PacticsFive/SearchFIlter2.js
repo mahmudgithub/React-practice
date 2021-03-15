@@ -38,7 +38,9 @@ const SearchFIlter2 = () => {
         onChange={(e) => {
           setsearch(e.target.value);
         }}
+        
       />
+      <button type="submit">Search</button>
       {filterCountries.map((item, index) => {
         return <li>{item.name}</li>;
       })}
