@@ -1,5 +1,6 @@
 import Axios from "axios";
 import React, { useEffect, useState } from "react";
+import Extra from "./Extra";
 
 const SearchFIlter2 = () => {
   const [countris, setcountris] = useState([]);
@@ -42,7 +43,7 @@ const SearchFIlter2 = () => {
       />
       <button type="submit">Search</button>
       {filterCountries.map((item, index) => {
-        return <li>{item.name}</li>;
+        return <Extra sos={item}></Extra>
       })}
     </div>
   );
