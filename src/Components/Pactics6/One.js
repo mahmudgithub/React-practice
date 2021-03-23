@@ -49,3 +49,32 @@
 // }
 
 // export default One
+
+import Axios from 'axios'
+import React, { useEffect, useState } from 'react'
+
+const One = () => {
+    const [country, setcountry] = useState([])
+    useEffect(()=>{
+        const lol=async()=>{
+            await Axios({
+                method:'get',
+                url:'https://restcountries.eu/rest/v2/all'
+            })
+            .then((res)=>{console.log(res.data);setcountry(res.data)})
+            .catch((err)=>{console.log(err);})
+        }
+        lol()
+    },[])
+    return (
+        <div>
+            <ul>
+                {
+                    country.map((item,index)=>{return <li key={index}>{item.name}</li>})
+                }
+            </ul>
+        </div>
+    )
+}
+
+export default One
