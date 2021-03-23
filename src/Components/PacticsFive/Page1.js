@@ -1,11 +1,11 @@
-import React from 'react'
+// import React from 'react'
 
-const Page1 = () => {
-    return (
-        <div>
-        page 1
-        </div>
-    )
-}
+// const Page1 = () => {
+//     return (
+//         <div>
+//         page 1
+//         </div>
+//     )
+// }
 
-export default Page1
+// export default Page1

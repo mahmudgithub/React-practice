@@ -1,11 +1,11 @@
-import React from 'react'
+// import React from 'react'
 
-const Not = () => {
-    return (
-        <div>
-            i have no any data
-        </div>
-    )
-}
+// const Not = () => {
+//     return (
+//         <div>
+//             i have no any data
+//         </div>
+//     )
+// }
 
-export default Not
+// export default Not
