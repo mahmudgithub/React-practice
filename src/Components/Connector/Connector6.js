@@ -4,7 +4,7 @@ import One from '../Pactics6/One'
 const Connector6 = () => {
     return (
         <div>
-            <One/>
+            <One name='mahmud'/>
         </div>
     )
 }

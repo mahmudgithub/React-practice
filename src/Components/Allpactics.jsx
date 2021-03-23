@@ -1641,14 +1641,16 @@
 
 //today react pactics 9/3/2021
 //pactics props 
-import React from 'react'
+// import React from 'react'
 
-const Allpactics = (props) => {
-    return (
-        <div>
-            {props.name}
-        </div>
-    )
-}
+// const Allpactics = (props) => {
+//     return (
+//         <div>
+//             {props.name}
+//         </div>
+//     )
+// }
 
-export default Allpactics
+// export default Allpactics
+
+
