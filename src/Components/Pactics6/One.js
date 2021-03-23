@@ -38,14 +38,14 @@
 // export default One
     
 
-import React from 'react'
+// import React from 'react'
 
-const One = () => {
-    return (
-        <div>
-            kell
-        </div>
-    )
-}
+// const One = (props) => {
+//     return (
+//         <div>
+//             my name is {props.name}
+//         </div>
+//     )
+// }
 
-export default One
+// export default One
