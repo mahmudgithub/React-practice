@@ -55,13 +55,14 @@ import React, { useEffect, useState } from 'react'
 
 const One = () => {
     const [country, setcountry] = useState([])
+    const [uniq, setuniq] = useState([])
     useEffect(()=>{
         const lol=async()=>{
             await Axios({
                 method:'get',
                 url:'https://restcountries.eu/rest/v2/all'
             })
-            .then((res)=>{console.log(res.data);setcountry(res.data)})
+            .then((res)=>{setcountry(res.data)})
             .catch((err)=>{console.log(err);})
         }
         lol()
@@ -69,8 +70,11 @@ const One = () => {
     return (
         <div>
             <ul>
-                {
+                {/* {
                     country.map((item,index)=>{return <li key={index}>{item.name}</li>})
+                } */}
+                {
+                    country.filter((item2)=>{ return item2==='Bangladesh'})
                 }
             </ul>
         </div>

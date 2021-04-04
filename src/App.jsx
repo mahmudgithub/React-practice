@@ -5,6 +5,7 @@ import Connector3 from './Components/Connector/Connector3'
 import Connector4 from './Components/Connector/Connector4'
 import Connector5 from './Components/Connector/Connector5'
 import Connector6 from './Components/Connector/Connector6'
+import Connector7 from './Components/Connector/Connector7'
 
 const App = () => {
   return (
@@ -14,7 +15,8 @@ const App = () => {
       {/* <Connector3/> */}
      {/* <Connector4/>  */}
       {/* <Connector5/> */}
-      <Connector6/>
+      {/* <Connector6/> */}
+      <Connector7/>
     </div>
   )
 }
